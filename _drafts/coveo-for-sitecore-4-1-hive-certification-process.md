@@ -11,7 +11,7 @@ tags:
 - coveo hive
 - exam
 - training
-date: 2019-03-12 04:00:00 +0000
+date: 2019-03-12T04:00:00.000+00:00
 header:
   overlay_image: ''
   overlay_filter: ''
@@ -58,4 +58,4 @@ must sign up before doing it
 
 Thanks to [Apiqu](www.apiqu.com "APIQU INC."), a leader in sitecore solutions, I was able to write my exam for free! Check if your employer is a Coveo partner, you may qualify for a free training/exam.
 
-\[Show my certification here\]
+![](/assets/images/Coveo_Min-Jae-Kim.jpg)
