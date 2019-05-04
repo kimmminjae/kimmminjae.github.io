@@ -15,6 +15,7 @@ date: 2018-03-02T08:00:00.000+00:00
 header:
   overlay_image: "/assets/images/2019-03-02_Hackathon-Result-Screenshot.png"
   overlay_filter: 0.5
+  show_overlay_title: true
 
 ---
 ![](/assets/images/sitecore-hackathon-grouppic.jpg)
