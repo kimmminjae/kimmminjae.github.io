@@ -61,3 +61,5 @@ Study materials used to study for my exam are included in the list below.
 My overall experience was great since their eLearning courses were well organized, although I think their eLearning web interface needs some fix. I was somewhat disappointed to learn that the certification expires. Mine expires on December 31st, 2020. If you are able to memorize everything in the eLearning course, you should be fine!
 
 Good luck!
+
+![](/assets/images/0001.jpg)
