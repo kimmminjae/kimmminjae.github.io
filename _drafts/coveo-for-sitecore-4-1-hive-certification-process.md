@@ -20,42 +20,18 @@ header:
 ---
 I recently wrote the Coveo for Sitecore 4.1 (Hive) Certification exam and I would like to share my experience!
 
-Coveo for Sitecore is the most advanced search engine for Sitecore. It supports on-premise and cloud, where Coveo is moving closer towards cloud.
+Coveo for Sitecore is the most advanced search engine for Sitecore. Although Coveo supports both on-premise and cloud indexing, Coveo is moving closer towards the cloud.
 
-Tips for the exam:
+The first step is to enrol in the [Coveo for Sitecore Developer Course](https://academy.coveo.com/series/coveo-for-sitecore-administrator-learning-path/coveo-for-sitecore-developer). The course includes one free exam, and any retake costs 500 USD. If you or your employer is a Coveo solutions partner, you may be eligible to take this course for free, including the exam!
 
-Enroll in the course:
+To take the most out of the Coveo training experience, I strongly recommend you take the online (pre-recorded) course twice. Make sure you can replicate all the labs without peeking at the solution manual or video.
 
-[https://academy.coveo.com/series/coveo-for-sitecore-administrator-learning-path/coveo-for-sitecore-developer](https://academy.coveo.com/series/coveo-for-sitecore-administrator-learning-path/coveo-for-sitecore-developer "https://academy.coveo.com/series/coveo-for-sitecore-administrator-learning-path/coveo-for-sitecore-developer")
+Overall, the exam was tough. You will have 180 minutes for 90 questions unless you have a Coveo for Sitecore 3.0 Certification. That's 1 question every 2 minutes! The entire exam is comprised of multiple choice questions, but many questions have multiple correct answers and you have to pick all the correct answers. Although you can pause the exam and come back later, you cannot go back to any of the previous questions. Coveo recommends that you do it in one sitting and I recommend the same as well.
 
-The course includes one free exam. Any Retake is $500 USD (A lot more in Canadian Monopoly Dollars)
+During the exam, you will be able to access the internet and any study materials, including the training PDF and the course videos. Make sure you save the PDF downloaded and have it handy at all times so you can search for specific keywords!
 
-Training PDF save it. make sure you can find specific words. open book, open internet. Make use of Control+F. Find keywords in questions to help you find the specific page.
+I also recommend you prepare a Sitecore installation with the solution from the end of the Coveo training lab. If you don't remember how some part was done during the exam, you can refer back to your Sitecore solution and try it out for yourself.
 
-have your sitecore solution open with coveo installed. Test it out on the solution. Will help you remember stuff. preferably an instance with completed labs from the training.
-
-make sure the doc is open. [https://docs.coveo.com/en/2709/root/coveo-for-sitecore-documentation](https://docs.coveo.com/en/2709/root/coveo-for-sitecore-documentation "https://docs.coveo.com/en/2709/root/coveo-for-sitecore-documentation")
-
-coveo cloud control pannel
-
-refer to the exam documentation.
-
-There will be an instruction before the exam. READ CAREFULLY.
-
-Multiple answers are possible for some of the questions.
-
-Keywords to use:
-
-Machine learning
-
-Personalization
-
-180 min (3h) for 90 questions unless you have Coveo for Sitecore 3.0 Certification. You will have x questions with y time.
-
-cannot go back to a previous question, but you can pause during the exam by giving your id and pass. They recommend you do it in one sitting. I recommend the same thing as well.
-
-must sign up before doing it
-
-Thanks to [Apiqu](www.apiqu.com "APIQU INC."), a leader in sitecore solutions, I was able to write my exam for free! Check if your employer is a Coveo partner, you may qualify for a free training/exam.
+Finally, have the [Coveo for Sitecore documentation](https://docs.coveo.com/en/2709/root/coveo-for-sitecore-documentation) and [Coveo Cloud control panel](https://www.coveo.com/en/login) open at all times. Searching the documentation and the control panel is crucial for this exam.
 
 ![](/assets/images/Coveo_Min-Jae-Kim.jpg)
