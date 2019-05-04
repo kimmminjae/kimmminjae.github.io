@@ -32,5 +32,3 @@ fields:
     name: overlay_filter
     label: overlay_filter
     default: '0.5'
-pages:
-- _posts/h.md
