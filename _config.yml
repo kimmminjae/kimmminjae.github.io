@@ -135,7 +135,7 @@ author:
       icon: "fab fa-stripe-s"
       url: "/files/Sitecore_Min-Jae-Kim.pdf"
     - label: "Coveo"
-      icon: "fab fa-play"
+      icon: "fas fa-copyright"
       url: "/files/Coveo_Min-Jae-Kim.pdf"
 
 # Site Footer
