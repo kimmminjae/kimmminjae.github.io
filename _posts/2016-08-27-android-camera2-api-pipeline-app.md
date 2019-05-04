@@ -1,13 +1,19 @@
 ---
 title: Android Camera2 API Pipeline Manipulation
-modified:
+modified: 
 categories: code
-excerpt: "Let's Take Some Picture!"
-tags: [Android, Camera, OpenCV, Computer Vision, White Balance]
-date: 2016-08-27T00:00:00-08:00
+excerpt: Let's Take Some Picture!
+tags:
+- Android
+- Camera
+- OpenCV
+- Computer Vision
+- White Balance
+date: 2016-08-27T08:00:00.000+00:00
 header:
-    overlay_image: "/assets/images/blog/2016-08-27-android-camera2-api-pipeline-app/hero.jpg"
-    overlay_filter: rgba(0, 0, 0, 0.5)
+  overlay_image: "/assets/images/blog/2016-08-27-android-camera2-api-pipeline-app/hero.jpg"
+  overlay_filter: rgba(0, 0, 0, 0.5)
+
 ---
 Intro
 -----
