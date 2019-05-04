@@ -13,4 +13,9 @@ var store = [{
         "excerpt":"Sitecore is a web content management system (CMS) with extensive marketing and personalization features. With enterprise-grade websites like Procter &amp; Gamble, Huawei, LastPass, and many more, Sitecore is a valuable technology to learn as a web or full-stack developer. I received a great opportunity to study and write the Sitecore®...","categories": ["code"],
         "tags": ["sitecore","certification","exam","preparation","developer"],
         "url": "www.kimmj.com/code/sitecore-9-0-certification-exam-and-preparation/",
+        "teaser":null},{
+        "title": "Coveo for Sitecore 4.1 (Hive) Certification Process",
+        "excerpt":"I recently wrote the Coveo for Sitecore 4.1 (Hive) Certification exam and I would like to share my experience! Coveo for Sitecore is the most advanced search engine for Sitecore. Although Coveo supports both on-premise and cloud indexing, Coveo is moving closer towards the cloud. The first step is to...","categories": ["code","certification"],
+        "tags": ["coveo","certification","sitecore","coveo hive","exam","training"],
+        "url": "www.kimmj.com/code/certification/coveo-for-sitecore-4-1-hive-certification-process/",
         "teaser":null}]
