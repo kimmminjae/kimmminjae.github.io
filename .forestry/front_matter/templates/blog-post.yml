@@ -27,6 +27,8 @@ fields:
   - type: file
     name: overlay_image
     label: overlay_image
+    default: "/assets/images/home-hero-background.jpg"
   - type: text
     name: overlay_filter
     label: overlay_filter
+    default: '0.5'
