@@ -1,1 +1,1 @@
-# kimmminjae.github.io
+# kimmminjae.com
