@@ -12,7 +12,7 @@ tags:
 date: 2018-06-30T04:00:00.000+00:00
 header:
   overlay_image: "/assets/images/0001.jpg"
-  overlay_filter: ''
+  overlay_filter: 0.5
   show_overlay_title: true
 
 ---
