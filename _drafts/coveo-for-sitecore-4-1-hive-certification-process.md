@@ -34,4 +34,6 @@ I also recommend you prepare a Sitecore installation with the solution from the 
 
 Finally, have the [Coveo for Sitecore documentation](https://docs.coveo.com/en/2709/root/coveo-for-sitecore-documentation) and [Coveo Cloud control panel](https://www.coveo.com/en/login) open at all times. Searching the documentation and the control panel is crucial for this exam.
 
+Good Luck!
+
 ![](/assets/images/Coveo_Min-Jae-Kim.jpg)
