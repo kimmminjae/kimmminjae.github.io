@@ -14,7 +14,7 @@ tags:
 date: 2019-03-12T04:00:00.000+00:00
 header:
   overlay_image: assets/images/Screen-Shot-2018-12-19-at-8.43.57-AM-720x430.png
-  overlay_filter: ''
+  overlay_filter: 0.5
   show_overlay_title: false
 
 ---
