@@ -13,7 +13,7 @@ date: 2018-06-30T04:00:00.000+00:00
 header:
   overlay_image: "/assets/images/001.jpg"
   overlay_filter: ''
-  show_overlay_title: false
+  show_overlay_title: true
 
 ---
 Sitecore is a web content management system (CMS) with extensive marketing and personalization features. With enterprise-grade websites like [Procter & Gamble](http://pg.com), [Huawei](Huawei.com), [LastPass](lastpass.com), and many more, Sitecore is a valuable technology to learn as a web or full-stack developer. I received a great opportunity to study and write the Sitecore® 9.0 Certified Platform Associate Developer Exam, thanks to my employer [Apiqu](apiqu.com). I recently passed the exam and I would like to share my experience studying for it, as well as some tips and tricks.
