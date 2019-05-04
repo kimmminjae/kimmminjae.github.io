@@ -17,7 +17,7 @@ header:
   overlay_filter: rgba(0, 0, 0, 0.5)
 
 ---
-![](/assets/images/2019-03-02_Hackathon-Group-Picture.jpg)
+![](/assets/images/sitecore-hackathon-grouppic.jpg)
 
 [Sitecore Hackathon Website](http://www.sitecorehackathon.org/sitecore-hackathon-2019/)
 
