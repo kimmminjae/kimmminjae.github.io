@@ -12,7 +12,8 @@ tags:
 date: 2016-08-27T08:00:00.000+00:00
 header:
   overlay_image: "/assets/images/blog/2016-08-27-android-camera2-api-pipeline-app/hero.jpg"
-  overlay_filter: rgba(0, 0, 0, 0.5)
+  overlay_filter: 0.5
+  show_overlay_title: true
 
 ---
 Intro
