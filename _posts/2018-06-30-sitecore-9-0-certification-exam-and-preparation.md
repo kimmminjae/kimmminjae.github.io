@@ -11,7 +11,7 @@ tags:
 - developer
 date: 2018-06-30T04:00:00.000+00:00
 header:
-  overlay_image: ''
+  overlay_image: "/assets/images/001.jpg"
   overlay_filter: ''
   show_overlay_title: false
 
