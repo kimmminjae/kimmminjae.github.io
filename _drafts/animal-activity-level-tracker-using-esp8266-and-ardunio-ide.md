@@ -15,7 +15,7 @@ tags:
 - DH11
 - adxl345
 - Accelerometer
-date: 2018-05-01 04:00:00 +0000
+date: 2018-05-01T04:00:00.000+00:00
 header:
   overlay_image: ''
   overlay_filter: ''
@@ -25,10 +25,6 @@ header:
 \[Add Eng4k System Diagram Here\]
 
 \[Add Eng4k Final Report Here\]
-
-\[Add Presentation With Dogs Picture Here\]
-
-\[Add Presentation With Team Picture Here\]
 
 \[Add First Prototype Video Here\]
 
