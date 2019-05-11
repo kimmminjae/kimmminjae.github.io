@@ -9,11 +9,6 @@ var store = [{
         "tags": ["Sitecore","Hackathon","SEO","Sitecore Addon","Marketing","Content Editing","CPC"],
         "url": "www.kimmj.com/code/sitecore-hackathon-2019-with-apiqu/",
         "teaser":null},{
-        "title": "Animal Activity Level Tracker Using ESP8266 and Ardunio IDE",
-        "excerpt":"[Add Eng4k System Diagram Here] [Add Eng4k Final Report Here] [Add First Prototype Video Here] [Add final Video here] Keywords: Project Manager Team Leader Agile TDR CDR TRR TD With Animal Psychology prof Activity Tracking Temperature Accelerometer Humidity Future Distance Max Velocity Big data 4g lte 5g (longer battery) Training...","categories": ["code"],
-        "tags": ["ESP8266","Firebase","Ardunio","C++","Animal","Activity","Tracker","DH11","adxl345","Accelerometer"],
-        "url": "www.kimmj.com/code/animal-activity-level-tracker-using-esp8266-and-ardunio-ide/",
-        "teaser":null},{
         "title": "Sitecore 9.0 Certification Exam and Preparation",
         "excerpt":"Sitecore is a web content management system (CMS) with extensive marketing and personalization features. With enterprise-grade websites like Procter &amp; Gamble, Huawei, LastPass, and many more, Sitecore is a valuable technology to learn as a web or full-stack developer. I received a great opportunity to study and write the Sitecore®...","categories": ["code"],
         "tags": ["sitecore","certification","exam","preparation","developer"],
