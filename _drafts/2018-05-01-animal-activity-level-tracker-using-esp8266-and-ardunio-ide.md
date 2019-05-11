@@ -37,6 +37,8 @@ header:
 {% youtube QcT-Il6SQbo %}
 {% youtube UIK-N0HM-rw %}
 
+I was a project manager
+
 Keywords:
 
 * Project Manager
