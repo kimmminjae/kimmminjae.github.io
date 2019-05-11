@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="www.kimmj.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.kimmj.com/" rel="alternate" type="text/html" /><updated>2019-05-11T00:22:54+00:00</updated><id>www.kimmj.com/feed.xml</id><title type="html">Min Jae Kim</title><subtitle>Software Developer Portfolio</subtitle><author><name>Min Jae Kim</name></author><entry><title type="html">Coveo for Sitecore 4.1 (Hive) Certification Process</title><link href="www.kimmj.com/code/certification/coveo-for-sitecore-4-1-hive-certification-process/" rel="alternate" type="text/html" title="Coveo for Sitecore 4.1 (Hive) Certification Process" /><published>2019-03-12T04:00:00+00:00</published><updated>2019-03-12T04:00:00+00:00</updated><id>www.kimmj.com/code/certification/coveo-for-sitecore-4-1-hive-certification-process</id><content type="html" xml:base="www.kimmj.com/code/certification/coveo-for-sitecore-4-1-hive-certification-process/">&lt;p&gt;I recently wrote the Coveo for Sitecore 4.1 (Hive) Certification exam and I would like to share my experience!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="www.kimmj.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.kimmj.com/" rel="alternate" type="text/html" /><updated>2019-05-11T00:27:51+00:00</updated><id>www.kimmj.com/feed.xml</id><title type="html">Min Jae Kim</title><subtitle>Software Developer Portfolio</subtitle><author><name>Min Jae Kim</name></author><entry><title type="html">Coveo for Sitecore 4.1 (Hive) Certification Process</title><link href="www.kimmj.com/code/certification/coveo-for-sitecore-4-1-hive-certification-process/" rel="alternate" type="text/html" title="Coveo for Sitecore 4.1 (Hive) Certification Process" /><published>2019-03-12T04:00:00+00:00</published><updated>2019-03-12T04:00:00+00:00</updated><id>www.kimmj.com/code/certification/coveo-for-sitecore-4-1-hive-certification-process</id><content type="html" xml:base="www.kimmj.com/code/certification/coveo-for-sitecore-4-1-hive-certification-process/">&lt;p&gt;I recently wrote the Coveo for Sitecore 4.1 (Hive) Certification exam and I would like to share my experience!&lt;/p&gt;
 
 &lt;p&gt;Coveo for Sitecore is the most advanced search engine for Sitecore. Although Coveo supports both on-premise and cloud indexing, Coveo is moving closer towards the cloud.&lt;/p&gt;
 
@@ -120,7 +120,52 @@
 
 &lt;p&gt;Good luck!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/0001.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>Min Jae Kim</name></author><category term="sitecore" /><category term="certification" /><category term="exam" /><category term="preparation" /><category term="developer" /><summary type="html">How I became a Sitecore 9.0 Certified Developer!</summary></entry><entry><title type="html">Sitecore Hackathon 2019 with Apiqu!</title><link href="www.kimmj.com/code/sitecore-hackathon-2019-with-apiqu/" rel="alternate" type="text/html" title="Sitecore Hackathon 2019 with Apiqu!" /><published>2018-03-02T08:00:00+00:00</published><updated>2018-03-02T08:00:00+00:00</updated><id>www.kimmj.com/code/sitecore-hackathon-2019-with-apiqu</id><content type="html" xml:base="www.kimmj.com/code/sitecore-hackathon-2019-with-apiqu/">&lt;p&gt;&lt;img src=&quot;/assets/images/sitecore-hackathon-grouppic.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/0001.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>Min Jae Kim</name></author><category term="sitecore" /><category term="certification" /><category term="exam" /><category term="preparation" /><category term="developer" /><summary type="html">How I became a Sitecore 9.0 Certified Developer!</summary></entry><entry><title type="html">Animal Activity Level Tracker Using ESP8266 and Ardunio IDE</title><link href="www.kimmj.com/code/animal-activity-level-tracker-using-esp8266-and-ardunio-ide/" rel="alternate" type="text/html" title="Animal Activity Level Tracker Using ESP8266 and Ardunio IDE" /><published>2018-05-01T04:00:00+00:00</published><updated>2018-05-01T04:00:00+00:00</updated><id>www.kimmj.com/code/animal-activity-level-tracker-using-esp8266-and-ardunio-ide</id><content type="html" xml:base="www.kimmj.com/code/animal-activity-level-tracker-using-esp8266-and-ardunio-ide/">&lt;p&gt;[Add Eng4k System Diagram Here]&lt;/p&gt;
+
+&lt;p&gt;[Add Eng4k Final Report Here]&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/animal-activity-level-tracker-dog-mj.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/animal-activity-level-tracker-dog-trainer.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;[Add First Prototype Video Here]&lt;/p&gt;
+
+&lt;p&gt;[Add final Video here]&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/oHg5SJYRHA0?color=white&amp;amp;theme=light&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Keywords:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Project Manager&lt;/li&gt;
+  &lt;li&gt;Team Leader&lt;/li&gt;
+  &lt;li&gt;Agile&lt;/li&gt;
+  &lt;li&gt;TDR&lt;/li&gt;
+  &lt;li&gt;CDR&lt;/li&gt;
+  &lt;li&gt;TRR&lt;/li&gt;
+  &lt;li&gt;TD&lt;/li&gt;
+  &lt;li&gt;With Animal Psychology prof&lt;/li&gt;
+  &lt;li&gt;Activity Tracking&lt;/li&gt;
+  &lt;li&gt;Temperature&lt;/li&gt;
+  &lt;li&gt;Accelerometer&lt;/li&gt;
+  &lt;li&gt;Humidity&lt;/li&gt;
+  &lt;li&gt;Future
+    &lt;ul&gt;
+      &lt;li&gt;Distance&lt;/li&gt;
+      &lt;li&gt;Max Velocity&lt;/li&gt;
+      &lt;li&gt;Big data&lt;/li&gt;
+      &lt;li&gt;4g lte&lt;/li&gt;
+      &lt;li&gt;5g (longer battery)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Training&lt;/li&gt;
+  &lt;li&gt;Horse&lt;/li&gt;
+  &lt;li&gt;small&lt;/li&gt;
+  &lt;li&gt;battery&lt;/li&gt;
+  &lt;li&gt;Firebase&lt;/li&gt;
+  &lt;li&gt;Arduino IDE&lt;/li&gt;
+  &lt;li&gt;Android MVC&lt;/li&gt;
+  &lt;li&gt;Wifi&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Min Jae Kim</name></author><category term="ESP8266" /><category term="Firebase" /><category term="Ardunio" /><category term="C++" /><category term="Animal" /><category term="Activity" /><category term="Tracker" /><category term="DH11" /><category term="adxl345" /><category term="Accelerometer" /><summary type="html">How I created an animal activity tracker using ESP8266 micro-controller and ADXL345 accelerometer</summary></entry><entry><title type="html">Sitecore Hackathon 2019 with Apiqu!</title><link href="www.kimmj.com/code/sitecore-hackathon-2019-with-apiqu/" rel="alternate" type="text/html" title="Sitecore Hackathon 2019 with Apiqu!" /><published>2018-03-02T08:00:00+00:00</published><updated>2018-03-02T08:00:00+00:00</updated><id>www.kimmj.com/code/sitecore-hackathon-2019-with-apiqu</id><content type="html" xml:base="www.kimmj.com/code/sitecore-hackathon-2019-with-apiqu/">&lt;p&gt;&lt;img src=&quot;/assets/images/sitecore-hackathon-grouppic.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.sitecorehackathon.org/sitecore-hackathon-2019/&quot;&gt;Sitecore Hackathon Website&lt;/a&gt;&lt;/p&gt;
 
