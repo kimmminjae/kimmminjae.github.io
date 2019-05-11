@@ -26,9 +26,9 @@ header:
 
 \[Add Eng4k Final Report Here\]
 
-![](/assets/images/animal-activity-level-tracker-dog-mj.jpg)
+![Dog with activity level tracker beside myself](/assets/images/animal-activity-level-tracker-dog-mj.jpg)
 
-![](/assets/images/animal-activity-level-tracker-dog-trainer.jpg)
+![Dog wearing activity level tracker beside its owner](/assets/images/animal-activity-level-tracker-dog-trainer.jpg)
 
 \[Add First Prototype Video Here\]
 
