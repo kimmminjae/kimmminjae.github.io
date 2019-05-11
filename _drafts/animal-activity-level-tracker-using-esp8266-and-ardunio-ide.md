@@ -26,9 +26,14 @@ header:
 
 \[Add Eng4k Final Report Here\]
 
+![](/assets/images/animal-activity-level-tracker-dog-mj.jpg)
+
+![](/assets/images/animal-activity-level-tracker-dog-trainer.jpg)
+
 \[Add First Prototype Video Here\]
 
 \[Add final Video here\]
+{% youtube oHg5SJYRHA0 %}
 
 Keywords:
 
