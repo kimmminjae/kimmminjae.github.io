@@ -5,7 +5,7 @@ var store = [{
         "url": "www.kimmj.com/code/android-camera2-api-pipeline-app/",
         "teaser":null},{
         "title": "Sitecore Hackathon 2019 with Apiqu!",
-        "excerpt":"   &lt;iframe width=”560” height=”420” src=”https://www.youtube.com/embed/wESrRfs8H_Q” frameborder=”0”allowfullscreen&gt;&lt;/iframe&gt;   Sitecore Hackathon Website   Our Hackathon Submission  ","categories": ["code"],
+        "excerpt":"   Sitecore Hackathon Website   Our Hackathon Submission  ","categories": ["code"],
         "tags": ["Sitecore","Hackathon","SEO","Sitecore Addon","Marketing","Content Editing","CPC"],
         "url": "www.kimmj.com/code/sitecore-hackathon-2019-with-apiqu/",
         "teaser":null},{
