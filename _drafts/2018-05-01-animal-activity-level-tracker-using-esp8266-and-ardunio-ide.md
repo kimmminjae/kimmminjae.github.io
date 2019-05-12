@@ -24,8 +24,6 @@ header:
 ---
 \[Add Eng4k System Diagram Here\]
 
-\[Add Eng4k Final Report Here\]
-
 ![Dog with activity level tracker beside myself](/assets/images/animal-activity-level-tracker-dog-mj.jpg)
 
 ![Dog wearing activity level tracker beside its owner](/assets/images/animal-activity-level-tracker-dog-trainer.jpg)
