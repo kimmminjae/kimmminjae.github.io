@@ -15,7 +15,7 @@ tags:
 - DH11
 - adxl345
 - Accelerometer
-date: 2018-05-01T04:00:00.000+00:00
+date: 2017-04-30 04:00:00 +0000
 header:
   overlay_image: "/assets/images/animal-activity-level-tracker-system-diagram.png"
   overlay_filter: 0.5
