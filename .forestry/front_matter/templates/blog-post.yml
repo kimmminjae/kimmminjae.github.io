@@ -20,6 +20,9 @@ fields:
 - type: datetime
   name: date
   label: date
+  default: now
+  config:
+    required: true
 - type: field_group
   name: header
   label: header
