@@ -20,8 +20,6 @@ header:
 ---
 ![](/assets/images/sitecore-hackathon-grouppic.jpg)
 
-{% youtube wESrRfs8H_Q %}
-
 [Sitecore Hackathon Website](http://www.sitecorehackathon.org/sitecore-hackathon-2019/)
 
 [Our Hackathon Submission](https://github.com/Sitecore-Hackathon/2019-The-Knights-Who-Say-Ni)
