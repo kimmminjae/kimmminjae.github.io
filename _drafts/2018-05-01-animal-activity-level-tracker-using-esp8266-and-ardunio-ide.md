@@ -1,5 +1,5 @@
 ---
-title: Animal Activity Level Tracker Using ESP8266 and Ardunio IDE
+title: Animal Activity Level Tracker Using ESP8266 (Wifi-Arduino)
 categories:
 - code
 excerpt: How I created an animal activity tracker using ESP8266 micro-controller and
@@ -15,7 +15,7 @@ tags:
 - DH11
 - adxl345
 - Accelerometer
-date: 2018-05-01 00:00:00 -0400
+date: 2018-05-01T04:00:00.000+00:00
 header:
   overlay_image: "/assets/images/animal-activity-level-tracker-system-diagram.png"
   overlay_filter: 0.5
@@ -37,6 +37,5 @@ Animal Activity Tracker Document BioAnimalBigData:
 {% youtube QcT-Il6SQbo %}
 
 {% youtube UIK-N0HM-rw %}
-
 
 [https://github.com/kimmminjae/Animal-Activity-Tracker-ESP8266-Firebase](https://github.com/kimmminjae/Animal-Activity-Tracker-ESP8266-Firebase "https://github.com/kimmminjae/Animal-Activity-Tracker-ESP8266-Firebase")
