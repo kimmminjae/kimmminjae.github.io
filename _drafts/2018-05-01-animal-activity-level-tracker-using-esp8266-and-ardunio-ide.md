@@ -26,9 +26,9 @@ header:
 
 Animal Activity Tracker Document BioAnimalBigData:
 
-[![](/assets/images/ENG4000-Final-Report-BioABD-thumbnail.png)](https://app.forestry.io/sites/lyjkvpnlscvfoq/body-media//files/ENG4000-Final-Report-BioABD.pdf)
+[![](/assets/images/ENG4000-Final-Report-BioABD-thumbnail.png)](/files/ENG4000-Final-Report-BioABD.pdf)
 
-![Dog with activity level tracker beside myself](/assets/images/animal-activity-level-tracker-dog-mj.jpg)[]
+![Dog with activity level tracker beside myself](/assets/images/animal-activity-level-tracker-dog-mj.jpg)\[\]
 
 ![Dog wearing activity level tracker beside its owner](/assets/images/animal-activity-level-tracker-dog-trainer.jpg)
 
