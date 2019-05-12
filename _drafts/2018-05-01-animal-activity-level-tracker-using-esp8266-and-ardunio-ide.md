@@ -31,13 +31,11 @@ Animal Activity Tracker Document BioAnimalBigData:
 ![Dog with activity level tracker beside myself](/assets/images/animal-activity-level-tracker-dog-mj.jpg)
 
 ![Dog wearing activity level tracker beside its owner](/assets/images/animal-activity-level-tracker-dog-trainer.jpg)
-
-\[Add First Prototype Video Here\]
-
-\[Add final Video here\]
 {% youtube TJRIo1g7_dk %}
 {% youtube QcT-Il6SQbo %}
 {% youtube UIK-N0HM-rw %}
+
+[https://github.com/kimmminjae/Animal-Activity-Tracker-ESP8266-Firebase](https://github.com/kimmminjae/Animal-Activity-Tracker-ESP8266-Firebase "https://github.com/kimmminjae/Animal-Activity-Tracker-ESP8266-Firebase")
 
 I was a project manager
 
