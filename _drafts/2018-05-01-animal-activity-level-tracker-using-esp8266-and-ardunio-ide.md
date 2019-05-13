@@ -24,7 +24,9 @@ header:
 ---
 ![](/assets/images/animal-activity-level-tracker-system-diagram.png)
 
-Animal Activity Tracker Document BioAnimalBigData:
+The device is intended to be distributed to thousands of animal owners in the future. We intend to collect data from all these devices and enable researchers to use this "Big Data". Thus, we call this device the Bio Animal Big Data (BioABD)
+
+Animal Activity Tracker Document (BioABD):
 
 [![](/assets/images/ENG4000-Final-Report-BioABD-thumbnail.png)](/files/ENG4000-Final-Report-BioABD.pdf)
 
@@ -32,9 +34,15 @@ Animal Activity Tracker Document BioAnimalBigData:
 
 ![Dog wearing activity level tracker beside its owner](/assets/images/animal-activity-level-tracker-dog-trainer.jpg)
 
+Critical Design Review
+
 {% youtube TJRIo1g7_dk %}
 
+Test Readiness Review
+
 {% youtube QcT-Il6SQbo %}
+
+Test Review
 
 {% youtube UIK-N0HM-rw %}
 
