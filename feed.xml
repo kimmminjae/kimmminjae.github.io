@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="www.kimmj.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.kimmj.com/" rel="alternate" type="text/html" /><updated>2019-05-13T03:29:16+00:00</updated><id>www.kimmj.com/feed.xml</id><title type="html">Min Jae Kim</title><subtitle>Software Developer Portfolio</subtitle><author><name>Min Jae Kim</name></author><entry><title type="html">Coveo for Sitecore 4.1 (Hive) Certification Process</title><link href="www.kimmj.com/code/certification/coveo-for-sitecore-4-1-hive-certification-process/" rel="alternate" type="text/html" title="Coveo for Sitecore 4.1 (Hive) Certification Process" /><published>2019-03-12T04:00:00+00:00</published><updated>2019-03-12T04:00:00+00:00</updated><id>www.kimmj.com/code/certification/coveo-for-sitecore-4-1-hive-certification-process</id><content type="html" xml:base="www.kimmj.com/code/certification/coveo-for-sitecore-4-1-hive-certification-process/">&lt;p&gt;I recently wrote the Coveo for Sitecore 4.1 (Hive) Certification exam and I would like to share my experience!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="www.kimmj.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.kimmj.com/" rel="alternate" type="text/html" /><updated>2019-05-13T03:29:44+00:00</updated><id>www.kimmj.com/feed.xml</id><title type="html">Min Jae Kim</title><subtitle>Software Developer Portfolio</subtitle><author><name>Min Jae Kim</name></author><entry><title type="html">Coveo for Sitecore 4.1 (Hive) Certification Process</title><link href="www.kimmj.com/code/certification/coveo-for-sitecore-4-1-hive-certification-process/" rel="alternate" type="text/html" title="Coveo for Sitecore 4.1 (Hive) Certification Process" /><published>2019-03-12T04:00:00+00:00</published><updated>2019-03-12T04:00:00+00:00</updated><id>www.kimmj.com/code/certification/coveo-for-sitecore-4-1-hive-certification-process</id><content type="html" xml:base="www.kimmj.com/code/certification/coveo-for-sitecore-4-1-hive-certification-process/">&lt;p&gt;I recently wrote the Coveo for Sitecore 4.1 (Hive) Certification exam and I would like to share my experience!&lt;/p&gt;
 
 &lt;p&gt;Coveo for Sitecore is the most advanced search engine for Sitecore. Although Coveo supports both on-premise and cloud indexing, Coveo is moving closer towards the cloud.&lt;/p&gt;
 
@@ -120,7 +120,134 @@
 
 &lt;p&gt;Good luck!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/0001.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>Min Jae Kim</name></author><category term="sitecore" /><category term="certification" /><category term="exam" /><category term="preparation" /><category term="developer" /><summary type="html">How I became a Sitecore 9.0 Certified Developer!</summary></entry><entry><title type="html">Sitecore Hackathon 2019 with Apiqu!</title><link href="www.kimmj.com/code/sitecore-hackathon-2019-with-apiqu/" rel="alternate" type="text/html" title="Sitecore Hackathon 2019 with Apiqu!" /><published>2018-03-02T08:00:00+00:00</published><updated>2018-03-02T08:00:00+00:00</updated><id>www.kimmj.com/code/sitecore-hackathon-2019-with-apiqu</id><content type="html" xml:base="www.kimmj.com/code/sitecore-hackathon-2019-with-apiqu/">&lt;p&gt;&lt;img src=&quot;/assets/images/sitecore-hackathon-grouppic.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/0001.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>Min Jae Kim</name></author><category term="sitecore" /><category term="certification" /><category term="exam" /><category term="preparation" /><category term="developer" /><summary type="html">How I became a Sitecore 9.0 Certified Developer!</summary></entry><entry><title type="html">Animal Activity Level Tracker Using ESP8266 (Wifi-Arduino)</title><link href="www.kimmj.com/code/animal-activity-level-tracker-using-esp8266-and-ardunio-ide/" rel="alternate" type="text/html" title="Animal Activity Level Tracker Using ESP8266 (Wifi-Arduino)" /><published>2018-05-01T04:00:00+00:00</published><updated>2018-05-01T04:00:00+00:00</updated><id>www.kimmj.com/code/animal-activity-level-tracker-using-esp8266-and-ardunio-ide</id><content type="html" xml:base="www.kimmj.com/code/animal-activity-level-tracker-using-esp8266-and-ardunio-ide/">&lt;p&gt;&lt;img src=&quot;/assets/images/animal-activity-level-tracker-system-diagram.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The device is intended to be distributed to thousands of animal owners in the future. We intend to collect data from all these devices and enable researchers to use this “Big Data”. Thus, we call this device the Bio Animal Big Data (BioABD). For details, please check the documentation below.&lt;/p&gt;
+
+&lt;h3 id=&quot;project-scope&quot;&gt;Project Scope&lt;/h3&gt;
+
+&lt;p&gt;The device is intended to be distributed to thousands of animal owners in the future. We intend to collect data from all these devices and enable researchers to use this “Big Data”. Thus, we call this device the Bio Animal Big Data (BioABD).&lt;/p&gt;
+
+&lt;p&gt;The BioABD device measures acceleration in X, Y, and Z axis using the ADXL-345 accelerometer. It also measures temperature using the DS18B20 Temperature Sensor. ESP8266 microcontroller takes the readings from these sensors and sends it to Firebase (cloud database). These data are then viewable from an Android smartphone using our app. Extensive testing was done and these testing results are well documented on &lt;a href=&quot;https://app.forestry.io/sites/lyjkvpnlscvfoq/body-media//files/ENG4000-Final-Report-BioABD.pdf&quot;&gt;our documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/animal-activity-tracker-system-diagram-state.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;critical-design-review&quot;&gt;Critical Design Review&lt;/h3&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;https://www.youtube.com/embed/TJRIo1g7_dk?color=white&amp;amp;theme=light&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;test-readiness-review&quot;&gt;Test Readiness Review&lt;/h3&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;https://www.youtube.com/embed/QcT-Il6SQbo?color=white&amp;amp;theme=light&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;test-review&quot;&gt;Test Review&lt;/h3&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;https://www.youtube.com/embed/UIK-N0HM-rw?color=white&amp;amp;theme=light&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/animal-activity-level-tracker-dog-mj.jpg&quot; alt=&quot;Dog with activity level tracker beside myself&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/animal-activity-level-tracker-dog-trainer.jpg&quot; alt=&quot;Dog wearing activity level tracker beside its owner&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;animal-activity-tracker-documentation-bioabd&quot;&gt;Animal Activity Tracker Documentation (BioABD)&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;/files/ENG4000-Final-Report-BioABD.pdf&quot;&gt;&lt;img src=&quot;/assets/images/ENG4000-Final-Report-BioABD-thumbnail.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;code-for-esp8266&quot;&gt;Code for ESP8266&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/kimmminjae/Animal-Activity-Tracker-ESP8266-Firebase&quot; title=&quot;https://github.com/kimmminjae/Animal-Activity-Tracker-ESP8266-Firebase&quot;&gt;https://github.com/kimmminjae/Animal-Activity-Tracker-ESP8266-Firebase&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// Import Libraries
+#include &amp;lt;ESP8266WiFi.h&amp;gt;
+#include &amp;lt;FirebaseArduino.h&amp;gt;
+#include &amp;lt;Wire.h&amp;gt;
+#include &amp;lt;Adafruit_Sensor.h&amp;gt;
+#include &amp;lt;Adafruit_ADXL345_U.h&amp;gt;
+#include &amp;lt;OneWire.h&amp;gt; 
+#include &amp;lt;DallasTemperature.h&amp;gt;
+
+// Define Constants
+#define FIREBASE_HOST &quot;bioabd-662cf.firebaseio.com&quot;
+#define FIREBASE_AUTH &quot;AUTH_STR_HERE&quot;
+#define WIFI_SSID &quot;MJK&quot;
+#define WIFI_PASSWORD &quot;WIFI_PASS&quot;
+
+// Assign ID to the accelerometer
+Adafruit_ADXL345_Unified accel = Adafruit_ADXL345_Unified(12345);
+
+// Assign pin for the temperature sensor
+#define ONE_WIRE_BUS 2
+// Setup for the temperature sensor
+OneWire oneWire(ONE_WIRE_BUS); 
+DallasTemperature sensors(&amp;amp;oneWire);
+
+void setup() {
+  Serial.begin(9600);
+  // Attempt connection with given SSID and Password
+  WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
+  Serial.print(&quot;connecting&quot;);
+  
+  // Connect to Wi-Fi
+  while (WiFi.status() != WL_CONNECTED) {
+    Serial.print(&quot;.&quot;);
+    delay(500);
+  }
+  
+  Serial.println();
+  Serial.print(&quot;connected: &quot;);
+  Serial.println(WiFi.localIP());
+  
+  // Connect to Firebase server with the given host name and authentication code
+  Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH);
+  #ifndef ESP8266
+  while (!Serial);
+#endif
+  
+  // Sensor initialization
+  if(!accel.begin())
+  {
+    // Sensor detection error for the accelerometer
+    Serial.println(&quot;No ADXL345 detected. Check the wiring.&quot;);
+    while(1);
+  }
+  // Maximum measured force @ 16g
+  accel.setRange(ADXL345_RANGE_16_G);
+  
+  // Start the temperature sensor
+  sensors.begin();
+}
+
+void loop() {
+  // Request the temperature
+  sensors.requestTemperatures();
+  sensors_event_t event; 
+  
+  // Request the acceleration
+  accel.getEvent(&amp;amp;event);
+  StaticJsonBuffer&amp;lt;200&amp;gt; jsonBuffer;
+  JsonObject&amp;amp; root = jsonBuffer.createObject();
+  
+  // Measure the time in ms and send it to the server
+  root[&quot;unixTime&quot;] = millis();
+  double xval = event.acceleration.x;
+  // Measure the x y z acceleration values and send it to the server
+  root[&quot;xValue&quot;] = xval;
+  root[&quot;yValue&quot;] = event.acceleration.y;
+  root[&quot;zValue&quot;] = event.acceleration.z;
+  // Measure the temperature and send it to the server
+  root[&quot;tempValue&quot;] = sensors.getTempCByIndex(0);
+  // Push the measured data to the server
+  String name = Firebase.push(&quot;/adxl345&quot;, root);
+  // Error handler
+  Serial.println(xval);
+  if (Firebase.failed()) {
+      Serial.print(&quot;pushing /logs failed:&quot;);
+      Serial.println(Firebase.error());
+      return;
+  }
+  // Delay for 1 sec and repeat
+  delay(1000);
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Min Jae Kim</name></author><category term="ESP8266" /><category term="Firebase" /><category term="Ardunio" /><category term="C++" /><category term="Animal" /><category term="Activity" /><category term="Tracker" /><category term="DH11" /><category term="adxl345" /><category term="Accelerometer" /><summary type="html">How I created an animal activity tracker using ESP8266 micro-controller and ADXL345 accelerometer</summary></entry><entry><title type="html">Sitecore Hackathon 2019 with Apiqu!</title><link href="www.kimmj.com/code/sitecore-hackathon-2019-with-apiqu/" rel="alternate" type="text/html" title="Sitecore Hackathon 2019 with Apiqu!" /><published>2018-03-02T08:00:00+00:00</published><updated>2018-03-02T08:00:00+00:00</updated><id>www.kimmj.com/code/sitecore-hackathon-2019-with-apiqu</id><content type="html" xml:base="www.kimmj.com/code/sitecore-hackathon-2019-with-apiqu/">&lt;p&gt;&lt;img src=&quot;/assets/images/sitecore-hackathon-grouppic.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.sitecorehackathon.org/sitecore-hackathon-2019/&quot;&gt;Sitecore Hackathon Website&lt;/a&gt;&lt;/p&gt;
 
