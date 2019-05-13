@@ -24,7 +24,7 @@ header:
 ---
 ![](/assets/images/animal-activity-level-tracker-system-diagram.png)
 
-The device is intended to be distributed to thousands of animal owners in the future. We intend to collect data from all these devices and enable researchers to use this "Big Data". Thus, we call this device the Bio Animal Big Data (BioABD)
+The device is intended to be distributed to thousands of animal owners in the future. We intend to collect data from all these devices and enable researchers to use this "Big Data". Thus, we call this device the Bio Animal Big Data (BioABD).
 
 Animal Activity Tracker Document (BioABD):
 
