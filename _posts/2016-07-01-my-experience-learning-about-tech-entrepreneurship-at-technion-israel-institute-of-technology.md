@@ -3,7 +3,6 @@ title: My Experience Learning About Tech Entrepreneurship at Technion – Israel
   of Technology
 categories:
 - blog
-- code
 excerpt: ''
 tags: []
 date: 2016-07-01 00:00:00 -0400
