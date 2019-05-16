@@ -2,7 +2,7 @@
 title: Sitecore Hackathon 2019 with Apiqu!
 modified: 
 categories: code
-excerpt: Let's Take Some Picture!
+excerpt: ''
 tags:
 - Sitecore
 - Hackathon
@@ -14,7 +14,7 @@ tags:
 date: 2018-03-02T08:00:00.000+00:00
 header:
   overlay_image: "/assets/images/2019-03-02_Hackathon-Result-Screenshot.png"
-  overlay_filter: 0.5
+  overlay_filter: "0.5"
   show_overlay_title: true
 
 ---
