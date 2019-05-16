@@ -10,9 +10,9 @@ var store = [{
         "url": "www.kimmj.com/code/sitecore-hackathon-2019-with-apiqu/",
         "teaser":null},{
         "title": "Animal Activity Level Tracker Using ESP8266 (Wifi-Arduino)",
-        "excerpt":"The device is intended to be distributed to thousands of animal owners in the future. We intend to collect data from all these devices and enable researchers to use this “Big Data”. Thus, we call this device the Bio Animal Big Data (BioABD). For details, please check the documentation below....","categories": ["code"],
+        "excerpt":"The device is intended to be distributed to thousands of animal owners in the future. We intend to collect data from all these devices and enable researchers to use this “Big Data”. Thus, we call this device the Bio Animal Big Data (BioABD). For details, please check the documentation below....","categories": ["blog"],
         "tags": ["ESP8266","Firebase","Ardunio","C++","Animal","Activity","Tracker","DH11","adxl345","Accelerometer"],
-        "url": "www.kimmj.com/code/animal-activity-level-tracker-using-esp8266-and-ardunio-ide/",
+        "url": "www.kimmj.com/blog/animal-activity-level-tracker-using-esp8266-and-ardunio-ide/",
         "teaser":null},{
         "title": "Sitecore 9.0 Certification Exam and Preparation",
         "excerpt":"Sitecore is a web content management system (CMS) with extensive marketing and personalization features. With enterprise-grade websites like Procter &amp; Gamble, Huawei, LastPass, and many more, Sitecore is a valuable technology to learn as a web or full-stack developer. I received a great opportunity to study and write the Sitecore®...","categories": ["code"],
@@ -20,7 +20,7 @@ var store = [{
         "url": "www.kimmj.com/code/sitecore-9-0-certification-exam-and-preparation/",
         "teaser":null},{
         "title": "Coveo for Sitecore 4.1 (Hive) Certification Process",
-        "excerpt":"I recently wrote the Coveo for Sitecore 4.1 (Hive) Certification exam and I would like to share my experience! Coveo for Sitecore is the most advanced search engine for Sitecore. Although Coveo supports both on-premise and cloud indexing, Coveo is moving closer towards the cloud. The first step is to...","categories": ["code","certification"],
+        "excerpt":"I recently wrote the Coveo for Sitecore 4.1 (Hive) Certification exam and I would like to share my experience! Coveo for Sitecore is the most advanced search engine for Sitecore. Although Coveo supports both on-premise and cloud indexing, Coveo is moving closer towards the cloud. The first step is to...","categories": ["blog"],
         "tags": ["coveo","certification","sitecore","coveo hive","exam","training"],
-        "url": "www.kimmj.com/code/certification/coveo-for-sitecore-4-1-hive-certification-process/",
+        "url": "www.kimmj.com/blog/coveo-for-sitecore-4-1-hive-certification-process/",
         "teaser":null}]
