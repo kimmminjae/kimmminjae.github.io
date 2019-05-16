@@ -6,7 +6,8 @@ header:
 title: Easy Sitecore 9.1 Installation Guide - Without Command Line, from Fresh Windows
   Install
 modified: ''
-categories: blog
+categories:
+- blog
 excerpt: ''
 tags:
 - Sitecore 9.1
@@ -23,7 +24,7 @@ tags:
 
 ##### Sitecore 9.1.0 XP0 installation media
 
-[https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx "Sitecore 9.1.0 XP0 installation media")
+[https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx "https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx")
 
 ##### Sitecore License
 
