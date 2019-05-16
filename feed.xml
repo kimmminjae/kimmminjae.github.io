@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="www.kimmj.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.kimmj.com/" rel="alternate" type="text/html" /><updated>2019-05-16T15:05:08+00:00</updated><id>www.kimmj.com/feed.xml</id><title type="html">Min Jae Kim</title><subtitle>Software Developer Portfolio</subtitle><author><name>Min Jae Kim</name></author><entry><title type="html">Coveo for Sitecore 4.1 (Hive) Certification Process</title><link href="www.kimmj.com/blog/coveo-for-sitecore-4-1-hive-certification-process/" rel="alternate" type="text/html" title="Coveo for Sitecore 4.1 (Hive) Certification Process" /><published>2019-03-12T04:00:00+00:00</published><updated>2019-03-12T04:00:00+00:00</updated><id>www.kimmj.com/blog/coveo-for-sitecore-4-1-hive-certification-process</id><content type="html" xml:base="www.kimmj.com/blog/coveo-for-sitecore-4-1-hive-certification-process/">&lt;p&gt;I recently wrote the Coveo for Sitecore 4.1 (Hive) Certification exam and I would like to share my experience!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="www.kimmj.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.kimmj.com/" rel="alternate" type="text/html" /><updated>2019-05-16T16:31:42+00:00</updated><id>www.kimmj.com/feed.xml</id><title type="html">Min Jae Kim</title><subtitle>Software Developer Portfolio</subtitle><author><name>Min Jae Kim</name></author><entry><title type="html">Easy Sitecore 9.1 Installation Guide: Fresh Windows Install, Without Command Lines!</title><link href="www.kimmj.com/easy-sitecore-9-1-installation-guide-fresh-windows-install-without-command-lines/" rel="alternate" type="text/html" title="Easy Sitecore 9.1 Installation Guide: Fresh Windows Install, Without Command Lines!" /><published>2019-05-16T03:02:35+00:00</published><updated>2019-05-16T03:02:35+00:00</updated><id>www.kimmj.com/easy-sitecore-9-1-installation-guide-fresh-windows-install-without-command-lines</id><content type="html" xml:base="www.kimmj.com/easy-sitecore-9-1-installation-guide-fresh-windows-install-without-command-lines/">&lt;h1 id=&quot;relevant-links&quot;&gt;Relevant Links&lt;/h1&gt;
+
+&lt;h3 id=&quot;sitecore-910-xp0-single-on-premises&quot;&gt;Sitecore 9.1.0 XP0 Single On Premises&lt;/h3&gt;
+
+&lt;h5 id=&quot;sitecore-910-xp0-installation-media&quot;&gt;Sitecore 9.1.0 XP0 installation media&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx&quot; title=&quot;https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx&quot;&gt;https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;sitecore-license&quot;&gt;Sitecore License&lt;/h5&gt;
+
+&lt;p&gt;If you or your employer doesn’t have a Sitecore License, you can get a 60 day trial license here: &lt;a href=&quot;https://www.sitecore.com/getting-started/developer-trial&quot; title=&quot;https://www.sitecore.com/getting-started/developer-trial&quot;&gt;https://www.sitecore.com/getting-started/developer-trial&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;sql-server-2017-or-2016-sp2-or-greater&quot;&gt;SQL Server 2017 (or 2016 SP2 or Greater)&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.microsoft.com/en-us/sql-server/sql-server-downloads&quot; title=&quot;https://www.microsoft.com/en-us/sql-server/sql-server-downloads&quot;&gt;https://www.microsoft.com/en-us/sql-server/sql-server-downloads&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;java-runtime-environment-jre&quot;&gt;Java Runtime Environment (JRE)&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.java.com/en/download/&quot; title=&quot;https://www.java.com/en/download/&quot;&gt;https://www.java.com/en/download/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;low-effort-solr-install&quot;&gt;Low-Effort Solr Install&lt;/h3&gt;
+
+&lt;h5 id=&quot;jeremy-davis-blog-post-about-his-low-effort-solr-install-script&quot;&gt;Jeremy Davis’ blog post about his Low-Effort Solr Install script&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://jermdavis.wordpress.com/2017/10/30/low-effort-solr-installs/&quot; title=&quot;https://jermdavis.wordpress.com/2017/10/30/low-effort-solr-installs/&quot;&gt;https://jermdavis.wordpress.com/2017/10/30/low-effort-solr-installs/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;direct-link-to-his-code&quot;&gt;Direct link to his code&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gist.github.com/jermdavis/8d8a79f680505f1074153f02f70b9105#file-install-solr-ps1&quot; title=&quot;https://gist.github.com/jermdavis/8d8a79f680505f1074153f02f70b9105#file-install-solr-ps1&quot;&gt;https://gist.github.com/jermdavis/8d8a79f680505f1074153f02f70b9105#file-install-solr-ps1&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;sitecore-installation-framework-sif&quot;&gt;Sitecore Installation Framework (SIF)&lt;/h3&gt;
+
+&lt;h5 id=&quot;if-you-dont-have-sif-installed&quot;&gt;If you don’t have SIF installed&lt;/h5&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Register-PSRepository -Name SitecoreGallery -SourceLocation https://sitecore.myget.org/F/sc-powershell/api/v2
+
+Set-PSRepository -Name SitecoreGallery -InstallationPolicy Trusted
+
+Install-Module -Name SitecoreInstallFramework -Repository SitecoreGallery
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h5 id=&quot;if-you-have-an-older-version-of-sif&quot;&gt;If you have an older version of SIF&lt;/h5&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Update-Module SitecoreInstallFramework
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;sif-less&quot;&gt;SIF-Less&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rockpapersitecore.com/2019/03/sif-less-2-2-auto-update-and-ui-runner/&quot; title=&quot;http://www.rockpapersitecore.com/2019/03/sif-less-2-2-auto-update-and-ui-runner/&quot;&gt;http://www.rockpapersitecore.com/2019/03/sif-less-2-2-auto-update-and-ui-runner/&lt;/a&gt;&lt;/p&gt;</content><author><name>Min Jae Kim</name></author><category term="Sitecore 9.1" /><category term="Sitecore Installation" /><category term="Installation Guide" /><category term="Sitecore" /><category term="Sitecore Experience Platform 9.1" /><category term="SIF-Less" /></entry><entry><title type="html">Coveo for Sitecore 4.1 (Hive) Certification Process</title><link href="www.kimmj.com/blog/coveo-for-sitecore-4-1-hive-certification-process/" rel="alternate" type="text/html" title="Coveo for Sitecore 4.1 (Hive) Certification Process" /><published>2019-03-12T04:00:00+00:00</published><updated>2019-03-12T04:00:00+00:00</updated><id>www.kimmj.com/blog/coveo-for-sitecore-4-1-hive-certification-process</id><content type="html" xml:base="www.kimmj.com/blog/coveo-for-sitecore-4-1-hive-certification-process/">&lt;p&gt;I recently wrote the Coveo for Sitecore 4.1 (Hive) Certification exam and I would like to share my experience!&lt;/p&gt;
 
 &lt;p&gt;Coveo for Sitecore is the most advanced search engine for Sitecore. Although Coveo supports both on-premise and cloud indexing, Coveo is moving closer towards the cloud.&lt;/p&gt;
 
