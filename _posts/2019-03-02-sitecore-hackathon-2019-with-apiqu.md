@@ -1,7 +1,8 @@
 ---
 title: Sitecore Hackathon 2019 with Apiqu!
 modified: 
-categories: code
+categories:
+- blog
 excerpt: ''
 tags:
 - Sitecore
