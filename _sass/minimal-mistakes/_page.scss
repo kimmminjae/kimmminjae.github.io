@@ -89,6 +89,10 @@
         margin-top: -($indent-var);
       }
     }
+     
+    a {
+       overflow-wrap: break-word;
+     }
   }
 
   a:not(.btn) {
