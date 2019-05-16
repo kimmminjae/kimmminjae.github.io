@@ -19,9 +19,15 @@ tags:
 ---
 # Relevant Links
 
-### Sitecore 9.1.0 XP Single On Premises
+### Sitecore 9.1.0 XP0 Single On Premises
+
+##### Sitecore 9.1.0 XP0 installation media
 
 [https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx "https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx")
+
+##### Sitecore License
+
+If you or your employer doesn't have a Sitecore License, you can get a 60 day trial license here: [https://www.sitecore.com/getting-started/developer-trial](https://www.sitecore.com/getting-started/developer-trial "https://www.sitecore.com/getting-started/developer-trial")
 
 ### SQL Server 2017 (or 2016 SP2 or Greater)
 
@@ -42,6 +48,18 @@ tags:
 [https://gist.github.com/jermdavis/8d8a79f680505f1074153f02f70b9105#file-install-solr-ps1](https://gist.github.com/jermdavis/8d8a79f680505f1074153f02f70b9105#file-install-solr-ps1 "https://gist.github.com/jermdavis/8d8a79f680505f1074153f02f70b9105#file-install-solr-ps1")
 
 ### Sitecore Installation Framework (SIF)
+
+##### If you don't have SIF installed
+
+    Register-PSRepository -Name SitecoreGallery -SourceLocation https://sitecore.myget.org/F/sc-powershell/api/v2
+
+    Set-PSRepository -Name SitecoreGallery -InstallationPolicy Trusted
+
+    Install-Module -Name SitecoreInstallFramework -Repository SitecoreGallery
+
+##### If you have an older version of SIF
+
+    Update-Module SitecoreInstallFramework
 
 ### SIF-Less
 
