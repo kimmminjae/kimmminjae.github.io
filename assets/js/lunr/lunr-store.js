@@ -5,9 +5,9 @@ var store = [{
         "url": "www.kimmj.com/blog/android-camera2-api-pipeline-app/",
         "teaser":null},{
         "title": "Sitecore Hackathon 2019 with Apiqu!",
-        "excerpt":"   Sitecore Hackathon Website   Our Hackathon Submission    ","categories": ["code"],
+        "excerpt":"   Sitecore Hackathon Website   Our Hackathon Submission    ","categories": ["blog"],
         "tags": ["Sitecore","Hackathon","SEO","Sitecore Addon","Marketing","Content Editing","CPC"],
-        "url": "www.kimmj.com/code/sitecore-hackathon-2019-with-apiqu/",
+        "url": "www.kimmj.com/blog/sitecore-hackathon-2019-with-apiqu/",
         "teaser":null},{
         "title": "Animal Activity Level Tracker Using ESP8266 (Wifi-Arduino)",
         "excerpt":"The device is intended to be distributed to thousands of animal owners in the future. We intend to collect data from all these devices and enable researchers to use this “Big Data”. Thus, we call this device the Bio Animal Big Data (BioABD). For details, please check the documentation below....","categories": ["blog"],
