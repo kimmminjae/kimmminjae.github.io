@@ -1,9 +1,4 @@
 var store = [{
-        "title": "My Experience Learning About Tech Entrepreneurship at Technion – Israel Institute of Technology",
-        "excerpt":"  ","categories": ["blog"],
-        "tags": [],
-        "url": "www.kimmj.com/blog/my-experience-learning-about-tech-entrepreneurship-at-technion-israel-institute-of-technology/",
-        "teaser":null},{
         "title": "Android Camera2 API Pipeline Manipulation",
         "excerpt":"Intro Ever since the birth of digital cameras, the ability to edit its image processing pipeline has been held exclusively by the camera manufacturers. Google is trying to change the game with the release of the Camera 2 API for Android. This new program interface will enable developers to input...","categories": ["code"],
         "tags": ["Android","Camera","OpenCV","Computer Vision","White Balance"],
