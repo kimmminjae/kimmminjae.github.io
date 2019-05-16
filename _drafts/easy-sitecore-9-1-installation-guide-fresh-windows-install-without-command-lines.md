@@ -29,6 +29,8 @@ tags:
 
 ### Java Runtime Environment (JRE)
 
+[https://www.java.com/en/download/](https://www.java.com/en/download/ "https://www.java.com/en/download/")
+
 ### Low-Effort Solr Install
 
 ##### Jeremy Davis' blog post about his Low-Effort Solr Install script
