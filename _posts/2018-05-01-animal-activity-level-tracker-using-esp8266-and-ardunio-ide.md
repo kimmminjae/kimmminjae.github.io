@@ -1,7 +1,7 @@
 ---
 title: Animal Activity Level Tracker Using ESP8266 (Wifi-Arduino)
 categories:
-- code
+- blog
 excerpt: How I created an animal activity tracker using ESP8266 micro-controller and
   ADXL345 accelerometer
 tags:
@@ -15,10 +15,10 @@ tags:
 - DH11
 - adxl345
 - Accelerometer
-date: 2018-05-01 00:00:00 -0400
+date: 2018-05-01T04:00:00.000+00:00
 header:
   overlay_image: "/assets/images/animal-activity-level-tracker-system-diagram.png"
-  overlay_filter: 0.5
+  overlay_filter: "0.5"
   show_overlay_title: true
 
 ---
