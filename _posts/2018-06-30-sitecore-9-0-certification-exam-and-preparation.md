@@ -1,7 +1,7 @@
 ---
 title: Sitecore 9.0 Certification Exam and Preparation
 categories:
-- code
+- blog
 excerpt: How I became a Sitecore 9.0 Certified Developer!
 tags:
 - sitecore
@@ -12,7 +12,7 @@ tags:
 date: 2018-06-30T04:00:00.000+00:00
 header:
   overlay_image: "/assets/images/0001.jpg"
-  overlay_filter: 0.5
+  overlay_filter: "0.5"
   show_overlay_title: true
 
 ---
