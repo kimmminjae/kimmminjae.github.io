@@ -1,14 +1,13 @@
 ---
-date: 2019-05-15 23:02:35 -0400
+date: 2019-05-16T03:02:35.000+00:00
 header:
   overlay_image: "/assets/images/home-hero-background.jpg"
   overlay_filter: "0.5"
-title: Easy Sitecore 9.1 Installation Guide - Without Command Line, from Fresh Windows
-  Install
+title: Easy Sitecore 9.1 Installation Guide
 modified: ''
 categories:
 - blog
-excerpt: ''
+excerpt: Without Command Line, from a Fresh Windows Install
 tags:
 - Sitecore 9.1
 - Sitecore Installation
