@@ -36,4 +36,4 @@ fields:
     label: overlay_filter
     default: '0.5'
 pages:
-- _posts/easy-sitecore-9-1-installation-guide-fresh-windows-install-without-command-lines.md
+- _posts/2019-05-15-easy-sitecore-9-1-installation-guide-fresh-windows-install-without-command-lines.md
