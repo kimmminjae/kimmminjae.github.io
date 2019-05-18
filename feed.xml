@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="www.kimmj.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.kimmj.com/" rel="alternate" type="text/html" /><updated>2019-05-18T22:45:42+00:00</updated><id>www.kimmj.com/feed.xml</id><title type="html">Min Jae Kim</title><subtitle>Software Developer Portfolio</subtitle><author><name>Min Jae Kim</name></author><entry><title type="html">Easy Sitecore 9.1 Installation Guide</title><link href="www.kimmj.com/blog/sitecore91-installation/" rel="alternate" type="text/html" title="Easy Sitecore 9.1 Installation Guide" /><published>2019-05-16T03:02:35+00:00</published><updated>2019-05-16T03:02:35+00:00</updated><id>www.kimmj.com/blog/sitecore91-installation</id><content type="html" xml:base="www.kimmj.com/blog/sitecore91-installation/">&lt;h1 id=&quot;relevant-links&quot;&gt;Relevant Links&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="www.kimmj.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.kimmj.com/" rel="alternate" type="text/html" /><updated>2019-05-18T23:04:09+00:00</updated><id>www.kimmj.com/feed.xml</id><title type="html">Min Jae Kim</title><subtitle>Software Developer Portfolio</subtitle><author><name>Min Jae Kim</name></author><entry><title type="html">Easy Sitecore 9.1 Installation Guide</title><link href="www.kimmj.com/blog/sitecore91-installation/" rel="alternate" type="text/html" title="Easy Sitecore 9.1 Installation Guide" /><published>2019-05-16T03:02:35+00:00</published><updated>2019-05-16T03:02:35+00:00</updated><id>www.kimmj.com/blog/sitecore91-installation</id><content type="html" xml:base="www.kimmj.com/blog/sitecore91-installation/">&lt;h1 id=&quot;relevant-links&quot;&gt;Relevant Links&lt;/h1&gt;
 
 &lt;h3 id=&quot;sitecore-910-xp0-single-on-premises&quot;&gt;Sitecore 9.1.0 XP0 Single On Premises&lt;/h3&gt;
 
@@ -22,7 +22,7 @@
 
 &lt;h5 id=&quot;one-click-solr-install-script&quot;&gt;One Click Solr Install Script&lt;/h5&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://kimmj.com/files/Install-Solr-721.ps1&quot; title=&quot;http://kimmj.com/files/Install-Solr-721.ps1&quot;&gt;http://kimmj.com/files/Install-Solr-721.ps1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://kimmj.com/files/Install-Solr-721.zip&quot; title=&quot;http://kimmj.com/files/Install-Solr-721.zip&quot;&gt;http://kimmj.com/files/Install-Solr-721.zip&lt;/a&gt;&lt;/p&gt;
 
 &lt;h5 id=&quot;jeremy-davis-blog-post-about-his-low-effort-solr-install-script&quot;&gt;Jeremy Davis’ blog post about his Low-Effort Solr Install script&lt;/h5&gt;
 
