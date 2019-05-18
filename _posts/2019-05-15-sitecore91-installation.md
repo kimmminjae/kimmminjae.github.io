@@ -41,7 +41,7 @@ If you or your employer doesn't have a Sitecore License, you can get a 60 day tr
 
 ##### One Click Solr Install Script
 
-[http://kimmj.com/files/Install-Solr-721.ps1](http://kimmj.com/files/Install-Solr-721.ps1 "http://kimmj.com/files/Install-Solr-721.ps1")
+[http://kimmj.com/files/Install-Solr-721.zip](http://kimmj.com/files/Install-Solr-721.zip "http://kimmj.com/files/Install-Solr-721.zip")
 
 ##### Jeremy Davis' blog post about his Low-Effort Solr Install script
 
