@@ -35,9 +35,13 @@ If you or your employer doesn't have a Sitecore License, you can get a 60 day tr
 
 ### Java Runtime Environment (JRE)
 
-[https://www.java.com/en/download/](https://www.java.com/en/download/ "Java Runtime Environment (JRE)")
+[https://www.java.com/en/download/manual.jsp](https://www.java.com/en/download/manual.jsp "https://www.java.com/en/download/manual.jsp")
 
 ### Low-Effort Solr Install
+
+##### One Click Solr Install Script
+
+    Set-ExecutionPolicy RemoteSigned
 
 ##### Jeremy Davis' blog post about his Low-Effort Solr Install script
 
