@@ -39,9 +39,11 @@ If you or your employer doesn't have a Sitecore License, you can get a 60 day tr
 
 ### Low-Effort Solr Install
 
-##### One Click Solr Install Script
+#### One Click Solr Install Script
 
 [http://kimmj.com/files/Install-Solr-721.zip](http://kimmj.com/files/Install-Solr-721.zip "http://kimmj.com/files/Install-Solr-721.zip")
+
+Acknowledgement: This script was built on top of Jeremy Davis' Low-Effort Solr Install script.
 
 ##### Jeremy Davis' blog post about his Low-Effort Solr Install script
 
@@ -60,11 +62,19 @@ If you or your employer doesn't have a Sitecore License, you can get a 60 day tr
     Set-PSRepository -Name SitecoreGallery -InstallationPolicy Trusted
     
     Install-Module -Name SitecoreInstallFramework -Repository SitecoreGallery
+    
+    Update-Module SitecoreInstallFramework -force
 
 ##### If you have an older version of SIF
 
-    Update-Module SitecoreInstallFramework
+    Update-Module SitecoreInstallFramework -force
 
 ### SIF-Less
+
+#### Download
+
+[http://rockpapersitecore.com/wp-content/uploads/sifless.zip](http://rockpapersitecore.com/wp-content/uploads/sifless.zip "http://rockpapersitecore.com/wp-content/uploads/sifless.zip")
+
+##### Rock Paper Sitecore's Post (SIF-Less Developer)
 
 [http://www.rockpapersitecore.com/2019/03/sif-less-2-2-auto-update-and-ui-runner/](http://www.rockpapersitecore.com/2019/03/sif-less-2-2-auto-update-and-ui-runner/ "SIF-Less")
