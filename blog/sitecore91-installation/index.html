@@ -362,9 +362,11 @@
 
 <h3 id="low-effort-solr-install">Low-Effort Solr Install</h3>
 
-<h5 id="one-click-solr-install-script">One Click Solr Install Script</h5>
+<h4 id="one-click-solr-install-script">One Click Solr Install Script</h4>
 
 <p><a href="http://kimmj.com/files/Install-Solr-721.zip" title="http://kimmj.com/files/Install-Solr-721.zip">http://kimmj.com/files/Install-Solr-721.zip</a></p>
+
+<p>Acknowledgement: This script was built on top of Jeremy Davis’ Low-Effort Solr Install script.</p>
 
 <h5 id="jeremy-davis-blog-post-about-his-low-effort-solr-install-script">Jeremy Davis’ blog post about his Low-Effort Solr Install script</h5>
 
@@ -383,14 +385,22 @@
 Set-PSRepository -Name SitecoreGallery -InstallationPolicy Trusted
 
 Install-Module -Name SitecoreInstallFramework -Repository SitecoreGallery
+
+Update-Module SitecoreInstallFramework -force
 </code></pre></div></div>
 
 <h5 id="if-you-have-an-older-version-of-sif">If you have an older version of SIF</h5>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Update-Module SitecoreInstallFramework
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Update-Module SitecoreInstallFramework -force
 </code></pre></div></div>
 
 <h3 id="sif-less">SIF-Less</h3>
+
+<h4 id="download">Download</h4>
+
+<p><a href="http://rockpapersitecore.com/wp-content/uploads/sifless.zip" title="http://rockpapersitecore.com/wp-content/uploads/sifless.zip">http://rockpapersitecore.com/wp-content/uploads/sifless.zip</a></p>
+
+<h5 id="rock-paper-sitecores-post-sif-less-developer">Rock Paper Sitecore’s Post (SIF-Less Developer)</h5>
 
 <p><a href="http://www.rockpapersitecore.com/2019/03/sif-less-2-2-auto-update-and-ui-runner/" title="SIF-Less">http://www.rockpapersitecore.com/2019/03/sif-less-2-2-auto-update-and-ui-runner/</a></p>
 

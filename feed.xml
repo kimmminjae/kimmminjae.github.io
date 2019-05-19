@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="www.kimmj.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.kimmj.com/" rel="alternate" type="text/html" /><updated>2019-05-18T23:04:09+00:00</updated><id>www.kimmj.com/feed.xml</id><title type="html">Min Jae Kim</title><subtitle>Software Developer Portfolio</subtitle><author><name>Min Jae Kim</name></author><entry><title type="html">Easy Sitecore 9.1 Installation Guide</title><link href="www.kimmj.com/blog/sitecore91-installation/" rel="alternate" type="text/html" title="Easy Sitecore 9.1 Installation Guide" /><published>2019-05-16T03:02:35+00:00</published><updated>2019-05-16T03:02:35+00:00</updated><id>www.kimmj.com/blog/sitecore91-installation</id><content type="html" xml:base="www.kimmj.com/blog/sitecore91-installation/">&lt;h1 id=&quot;relevant-links&quot;&gt;Relevant Links&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="www.kimmj.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.kimmj.com/" rel="alternate" type="text/html" /><updated>2019-05-19T01:06:45+00:00</updated><id>www.kimmj.com/feed.xml</id><title type="html">Min Jae Kim</title><subtitle>Software Developer Portfolio</subtitle><author><name>Min Jae Kim</name></author><entry><title type="html">Easy Sitecore 9.1 Installation Guide</title><link href="www.kimmj.com/blog/sitecore91-installation/" rel="alternate" type="text/html" title="Easy Sitecore 9.1 Installation Guide" /><published>2019-05-16T03:02:35+00:00</published><updated>2019-05-16T03:02:35+00:00</updated><id>www.kimmj.com/blog/sitecore91-installation</id><content type="html" xml:base="www.kimmj.com/blog/sitecore91-installation/">&lt;h1 id=&quot;relevant-links&quot;&gt;Relevant Links&lt;/h1&gt;
 
 &lt;h3 id=&quot;sitecore-910-xp0-single-on-premises&quot;&gt;Sitecore 9.1.0 XP0 Single On Premises&lt;/h3&gt;
 
@@ -20,9 +20,11 @@
 
 &lt;h3 id=&quot;low-effort-solr-install&quot;&gt;Low-Effort Solr Install&lt;/h3&gt;
 
-&lt;h5 id=&quot;one-click-solr-install-script&quot;&gt;One Click Solr Install Script&lt;/h5&gt;
+&lt;h4 id=&quot;one-click-solr-install-script&quot;&gt;One Click Solr Install Script&lt;/h4&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://kimmj.com/files/Install-Solr-721.zip&quot; title=&quot;http://kimmj.com/files/Install-Solr-721.zip&quot;&gt;http://kimmj.com/files/Install-Solr-721.zip&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Acknowledgement: This script was built on top of Jeremy Davis’ Low-Effort Solr Install script.&lt;/p&gt;
 
 &lt;h5 id=&quot;jeremy-davis-blog-post-about-his-low-effort-solr-install-script&quot;&gt;Jeremy Davis’ blog post about his Low-Effort Solr Install script&lt;/h5&gt;
 
@@ -41,14 +43,22 @@
 Set-PSRepository -Name SitecoreGallery -InstallationPolicy Trusted
 
 Install-Module -Name SitecoreInstallFramework -Repository SitecoreGallery
+
+Update-Module SitecoreInstallFramework -force
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h5 id=&quot;if-you-have-an-older-version-of-sif&quot;&gt;If you have an older version of SIF&lt;/h5&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Update-Module SitecoreInstallFramework
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Update-Module SitecoreInstallFramework -force
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;sif-less&quot;&gt;SIF-Less&lt;/h3&gt;
+
+&lt;h4 id=&quot;download&quot;&gt;Download&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://rockpapersitecore.com/wp-content/uploads/sifless.zip&quot; title=&quot;http://rockpapersitecore.com/wp-content/uploads/sifless.zip&quot;&gt;http://rockpapersitecore.com/wp-content/uploads/sifless.zip&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;rock-paper-sitecores-post-sif-less-developer&quot;&gt;Rock Paper Sitecore’s Post (SIF-Less Developer)&lt;/h5&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.rockpapersitecore.com/2019/03/sif-less-2-2-auto-update-and-ui-runner/&quot; title=&quot;SIF-Less&quot;&gt;http://www.rockpapersitecore.com/2019/03/sif-less-2-2-auto-update-and-ui-runner/&lt;/a&gt;&lt;/p&gt;</content><author><name>Min Jae Kim</name></author><category term="Sitecore 9.1" /><category term="Sitecore Installation" /><category term="Installation Guide" /><category term="Sitecore" /><category term="Sitecore Experience Platform 9.1" /><category term="SIF-Less" /><summary type="html">Without Command Line, from a Fresh Windows Install</summary></entry><entry><title type="html">Coveo for Sitecore 4.1 (Hive) Certification Process</title><link href="www.kimmj.com/blog/coveo-for-sitecore-4-1-hive-certification-process/" rel="alternate" type="text/html" title="Coveo for Sitecore 4.1 (Hive) Certification Process" /><published>2019-03-12T04:00:00+00:00</published><updated>2019-03-12T04:00:00+00:00</updated><id>www.kimmj.com/blog/coveo-for-sitecore-4-1-hive-certification-process</id><content type="html" xml:base="www.kimmj.com/blog/coveo-for-sitecore-4-1-hive-certification-process/">&lt;p&gt;I recently wrote the Coveo for Sitecore 4.1 (Hive) Certification exam and I would like to share my experience!&lt;/p&gt;
 
