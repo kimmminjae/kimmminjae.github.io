@@ -1,9 +1,9 @@
 ---
-date: 2019-05-16T03:02:35.000+00:00
+date: 2019-05-18 23:02:35 -0400
 header:
   overlay_image: "/assets/images/home-hero-background.jpg"
   overlay_filter: "0.5"
-title: Easy Sitecore 9.1 Installation Guide
+title: Easy Sitecore 9.1 Update-1 (9.1.1) Installation Guide
 modified: ''
 categories:
 - blog
@@ -19,11 +19,11 @@ tags:
 ---
 # Relevant Links
 
-### Sitecore 9.1.0 XP0 Single On Premises
+### Sitecore 9.1.1 XP0 Single On Premises
 
-##### Sitecore 9.1.0 XP0 installation media
+##### Sitecore 9.1.1 XP0 installation media
 
-[https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx "https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx")
+[https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Update1.aspx](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Update1.aspx "https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Update1.aspx")
 
 ##### Sitecore License
 
@@ -57,6 +57,8 @@ Acknowledgement: This script was built on top of Jeremy Davis' Low-Effort Solr I
 
 ##### If you don't have SIF installed
 
+    Set-ExecutionPolicy RemoteSigned
+    
     Register-PSRepository -Name SitecoreGallery -SourceLocation https://sitecore.myget.org/F/sc-powershell/api/v2
     
     Set-PSRepository -Name SitecoreGallery -InstallationPolicy Trusted
