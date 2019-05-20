@@ -57,6 +57,8 @@ Acknowledgement: This script was built on top of Jeremy Davis' Low-Effort Solr I
 
 ##### If you don't have SIF installed
 
+    Set-ExecutionPolicy RemoteSigned
+    
     Register-PSRepository -Name SitecoreGallery -SourceLocation https://sitecore.myget.org/F/sc-powershell/api/v2
     
     Set-PSRepository -Name SitecoreGallery -InstallationPolicy Trusted
