@@ -380,7 +380,9 @@
 
 <h5 id="if-you-dont-have-sif-installed">If you don’t have SIF installed</h5>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Register-PSRepository -Name SitecoreGallery -SourceLocation https://sitecore.myget.org/F/sc-powershell/api/v2
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Set-ExecutionPolicy RemoteSigned
+
+Register-PSRepository -Name SitecoreGallery -SourceLocation https://sitecore.myget.org/F/sc-powershell/api/v2
 
 Set-PSRepository -Name SitecoreGallery -InstallationPolicy Trusted
 
