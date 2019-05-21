@@ -25,7 +25,7 @@ var store = [{
         "url": "www.kimmj.com/blog/coveo-for-sitecore-4-1-hive-certification-process/",
         "teaser":null},{
         "title": "Easy Sitecore 9.1 Installation Guide",
-        "excerpt":"Relevant Links Platform Requirement Windows 10 or Windows Server 2016 Sitecore 9.1.0 XP0 Single On Premises Sitecore 9.1.0 XP0 installation media https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx Sitecore License If you or your employer doesn’t have a Sitecore License, you can get a 60 day trial license here: https://www.sitecore.com/getting-started/developer-trial SQL Server 2017 (or 2016 SP2...","categories": ["blog"],
+        "excerpt":"Video Link https://www.youtube.com/watch?v=e-_bFngir30 Relevant Links Platform Requirement Windows 10 or Windows Server 2016 Sitecore 9.1.0 XP0 Single On Premises Sitecore 9.1.0 XP0 installation media https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx Sitecore License If you or your employer doesn’t have a Sitecore License, you can get a 60 day trial license here: https://www.sitecore.com/getting-started/developer-trial SQL Server 2017...","categories": ["blog"],
         "tags": ["Sitecore 9.1","Sitecore Installation","Installation Guide","Sitecore","Sitecore Experience Platform 9.1","SIF-Less"],
         "url": "www.kimmj.com/blog/sitecore91-installation/",
         "teaser":null},{
