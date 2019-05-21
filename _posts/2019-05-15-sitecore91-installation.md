@@ -19,6 +19,11 @@ tags:
 ---
 # Relevant Links
 
+### Platform Requirement
+
+* Windows 10 or
+* Windows Server 2016
+
 ### Sitecore 9.1.0 XP0 Single On Premises
 
 ##### Sitecore 9.1.0 XP0 installation media
