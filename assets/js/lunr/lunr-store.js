@@ -37,5 +37,5 @@ var store = [{
         "title": "SXA 1.8 on Sitecore 9.0, 9.1, 9.1.1 Installation Guide",
         "excerpt":"Relevant Links   Sitecore Experience Accelerator (SXA) 1.8 Download Page (For Sitecore 9.0 and 9.1)   https://dev.sitecore.net/Downloads/Sitecore_Experience_Accelerator/18/Sitecore_Experience_Accelerator_180.aspx   Sitecore Experience Accelerator (SXA) 1.8.1 Download Page (For Sitecore 9.0 and 9.1.1)   https://dev.sitecore.net/Downloads/Sitecore_Experience_Accelerator/18/Sitecore_Experience_Accelerator_181.aspx   Sitecore PowerShell Extensions Download Page   https://marketplace.sitecore.net/en/Modules/Sitecore_PowerShell_console.aspx  ","categories": ["blog"],
         "tags": ["Sitecore 9","Sitecore Experience Accelerator","SXA 1.8","Sitecore","SXA"],
-        "url": "www.kimmj.com/blog/sxa-1-8-on-sitecore-9-0-9-1-9-1-1-installation-guide/",
+        "url": "www.kimmj.com/blog/sxa18-installation/",
         "teaser":null}]
