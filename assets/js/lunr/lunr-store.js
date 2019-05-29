@@ -30,7 +30,7 @@ var store = [{
         "url": "www.kimmj.com/blog/sitecore91-installation/",
         "teaser":null},{
         "title": "Easy Sitecore 9.1 Update-1 (9.1.1) Installation Guide",
-        "excerpt":"Relevant Links Sitecore 9.1.1 XP0 Single On Premises Sitecore 9.1.1 XP0 installation media https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Update1.aspx Sitecore License If you or your employer doesn’t have a Sitecore License, you can get a 60 day trial license here: https://www.sitecore.com/getting-started/developer-trial SQL Server 2017 (or 2016 SP2 or Greater) https://www.microsoft.com/en-us/sql-server/sql-server-downloads Java Runtime Environment (JRE) https://www.java.com/en/download/manual.jsp...","categories": ["blog"],
+        "excerpt":"Tutorial Video The following video is for Sitecore 9.1.0 installation, but the steps are identical except for downloading the Sitecore installation media. Please refer to the “Sitecore 9.1.1 XP0 installation media” section for the Sitecore 9.1.1 Installation media. https://www.youtube.com/watch?v=e-_bFngir30 Relevant Links Sitecore 9.1.1 XP0 Single On Premises Sitecore 9.1.1 XP0...","categories": ["blog"],
         "tags": ["Sitecore 9.1","Sitecore Installation","Installation Guide","Sitecore","Sitecore Experience Platform 9.1","SIF-Less"],
         "url": "www.kimmj.com/blog/sitecore-9-1-1-installation/",
         "teaser":null}]

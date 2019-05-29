@@ -1,6 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="www.kimmj.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.kimmj.com/" rel="alternate" type="text/html" /><updated>2019-05-29T01:37:08+00:00</updated><id>www.kimmj.com/feed.xml</id><title type="html">Min Jae Kim</title><subtitle>Software Developer Portfolio</subtitle><author><name>Min Jae Kim</name></author><entry><title type="html">Easy Sitecore 9.1 Update-1 (9.1.1) Installation Guide</title><link href="www.kimmj.com/blog/sitecore-9-1-1-installation/" rel="alternate" type="text/html" title="Easy Sitecore 9.1 Update-1 (9.1.1) Installation Guide" /><published>2019-05-19T03:02:35+00:00</published><updated>2019-05-19T03:02:35+00:00</updated><id>www.kimmj.com/blog/sitecore-9-1-1-installation</id><content type="html" xml:base="www.kimmj.com/blog/sitecore-9-1-1-installation/">&lt;h1 id=&quot;relevant-links&quot;&gt;Relevant Links&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="www.kimmj.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.kimmj.com/" rel="alternate" type="text/html" /><updated>2019-05-29T21:37:02+00:00</updated><id>www.kimmj.com/feed.xml</id><title type="html">Min Jae Kim</title><subtitle>Software Developer Portfolio</subtitle><author><name>Min Jae Kim</name></author><entry><title type="html">Easy Sitecore 9.1 Update-1 (9.1.1) Installation Guide</title><link href="www.kimmj.com/blog/sitecore-9-1-1-installation/" rel="alternate" type="text/html" title="Easy Sitecore 9.1 Update-1 (9.1.1) Installation Guide" /><published>2019-05-19T03:02:35+00:00</published><updated>2019-05-19T03:02:35+00:00</updated><id>www.kimmj.com/blog/sitecore-9-1-1-installation</id><content type="html" xml:base="www.kimmj.com/blog/sitecore-9-1-1-installation/">&lt;h2 id=&quot;tutorial-video&quot;&gt;Tutorial Video&lt;/h2&gt;
 
-&lt;h3 id=&quot;sitecore-911-xp0-single-on-premises&quot;&gt;Sitecore 9.1.1 XP0 Single On Premises&lt;/h3&gt;
+&lt;p&gt;The following video is for Sitecore 9.1.0 installation, but the steps are identical except for downloading the Sitecore installation media. Please refer to the “Sitecore 9.1.1 XP0 installation media” section for the Sitecore 9.1.1 Installation media.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=e-_bFngir30&quot; title=&quot;https://www.youtube.com/watch?v=e-_bFngir30&quot;&gt;https://www.youtube.com/watch?v=e-_bFngir30&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;relevant-links&quot;&gt;Relevant Links&lt;/h2&gt;
+
+&lt;h2 id=&quot;sitecore-911-xp0-single-on-premises&quot;&gt;Sitecore 9.1.1 XP0 Single On Premises&lt;/h2&gt;
 
 &lt;h5 id=&quot;sitecore-911-xp0-installation-media&quot;&gt;Sitecore 9.1.1 XP0 installation media&lt;/h5&gt;
 
