@@ -33,4 +33,9 @@ var store = [{
         "excerpt":"Tutorial Video The following video is for Sitecore 9.1.0 installation, but the steps are identical except for downloading the Sitecore installation media. Please refer to the “Sitecore 9.1.1 XP0 installation media” section for the Sitecore 9.1.1 Installation media. https://www.youtube.com/watch?v=e-_bFngir30 Relevant Links Sitecore 9.1.1 XP0 Single On Premises Sitecore 9.1.1 XP0...","categories": ["blog"],
         "tags": ["Sitecore 9.1","Sitecore Installation","Installation Guide","Sitecore","Sitecore Experience Platform 9.1","SIF-Less"],
         "url": "www.kimmj.com/blog/sitecore-9-1-1-installation/",
+        "teaser":null},{
+        "title": "SXA 1.8 on Sitecore 9.0, 9.1, 9.1.1 Installation Guide",
+        "excerpt":"Relevant Links   Sitecore Experience Accelerator (SXA) 1.8 Download Page (For Sitecore 9.0 and 9.1)   https://dev.sitecore.net/Downloads/Sitecore_Experience_Accelerator/18/Sitecore_Experience_Accelerator_180.aspx   Sitecore Experience Accelerator (SXA) 1.8.1 Download Page (For Sitecore 9.0 and 9.1.1)   https://dev.sitecore.net/Downloads/Sitecore_Experience_Accelerator/18/Sitecore_Experience_Accelerator_181.aspx   Sitecore PowerShell Extensions Download Page   https://marketplace.sitecore.net/en/Modules/Sitecore_PowerShell_console.aspx  ","categories": ["blog"],
+        "tags": ["Sitecore 9","Sitecore Experience Accelerator","SXA 1.8","Sitecore","SXA"],
+        "url": "www.kimmj.com/blog/sxa-1-8-on-sitecore-9-0-9-1-9-1-1-installation-guide/",
         "teaser":null}]
