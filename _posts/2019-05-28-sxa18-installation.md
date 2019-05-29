@@ -10,10 +10,10 @@ tags:
 - SXA 1.8
 - Sitecore
 - SXA
-date: 2019-05-28 00:00:00 -0400
+date: 2019-05-28T04:00:00.000+00:00
 header:
-  overlay_image: ''
-  overlay_filter: 
+  overlay_image: "/assets/images/home-hero-background.jpg"
+  overlay_filter: "0.5"
   show_overlay_title: true
 
 ---
