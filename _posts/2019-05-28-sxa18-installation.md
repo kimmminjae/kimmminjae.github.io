@@ -17,6 +17,8 @@ header:
   show_overlay_title: true
 
 ---
+## Tutorial Video
+{% youtube XoCEp-0YVus %}
 ## Relevant Links
 
 ### Sitecore Experience Accelerator (SXA) 1.8 Download Page (For Sitecore 9.0 and 9.1)
