@@ -36,15 +36,15 @@ The BioABD device measures acceleration in X, Y, and Z axis using the ADXL-345 a
 
 ### Critical Design Review
 
-{% include youtube.html id=TJRIo1g7_dk %}
+{% include youtube.html id="TJRIo1g7_dk" %}
 
 ### Test Readiness Review
 
-{% include youtube.html id=QcT-Il6SQbo %}
+{% include youtube.html id="QcT-Il6SQbo" %}
 
 ### Test Review
 
-{% include youtube.html id=UIK-N0HM-rw %}
+{% include youtube.html id="UIK-N0HM-rw" %}
 
 ![Dog with activity level tracker beside myself](/assets/images/animal-activity-level-tracker-dog-mj.jpg)
 
