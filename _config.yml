@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Min Jae Kim"
+title                    : "Minjae's Blog"
 title_separator          : "-"
-name                     : "Min Jae Kim"
-description              : "Software Developer Portfolio"
+name                     : "Minjae Kim"
+description              : "Sitecore Developer's Blog"
 url                      : "https://www.kimmj.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
