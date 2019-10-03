@@ -10,7 +10,7 @@ tags:
 - powershell
 date: 2019-10-03T04:00:00.000+00:00
 header:
-  overlay_image: assets\images\blog\2019-10-03-one-click-solr-installer\hero.png
+  overlay_image: /assets/images/blog/2019-10-03-one-click-solr-installer/hero.png
   overlay_filter: "0.5"
   show_overlay_title: true
 ---
