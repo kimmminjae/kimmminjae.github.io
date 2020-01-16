@@ -20,6 +20,7 @@ header:
 For the past 3 months, I've been implementing Sitecore's Digital Asset Management (DAM) solution, Content Hub. While developing and configuring Sitecore Content Hub, I made a list of some impressive features and highlights.
 I shared my thoughts on Valtech's blog page!
 Please feel free to read it using the link below!
+
 [https://www.valtech.com/insights/7-highlights-from-implementing-sitecore-content-hub/](https://www.valtech.com/insights/7-highlights-from-implementing-sitecore-content-hub/)
 
 {% <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6623280521793404929" height="346" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> %}
