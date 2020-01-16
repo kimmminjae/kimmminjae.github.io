@@ -11,7 +11,7 @@ tags:
 - DAM
 date: 2020-01-16T04:00:00.000+00:00
 header:
-  overlay_image: /assets/images/blog/2020-01-16-my-7-takeaways-from-implementing-sitecore-content-hub/hero.png
+  overlay_image: /assets/images/blog/2020-01-16-my-7-takeaways-from-implementing-sitecore-content-hub/hero.jpg
   overlay_filter: "0.5"
   show_overlay_title: true
 ---
