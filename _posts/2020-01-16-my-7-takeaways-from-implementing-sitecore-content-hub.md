@@ -24,5 +24,5 @@ Please feel free to read it using the link below!
 [https://www.valtech.com/insights/7-highlights-from-implementing-sitecore-content-hub/](https://www.valtech.com/insights/7-highlights-from-implementing-sitecore-content-hub/)
 
 {% raw %} 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6623280521793404929" height="346" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6623280521793404929" height="700" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 {% endraw %}
