@@ -15,7 +15,7 @@ header:
   show_overlay_title: true
 ---
 
-# About
+## About
 One click Solr Installer is a creation which came from the desire of wanting to spend less time installing stuff and more time doing stuff. After getting inspired by [Jeremy Davis' Low-Effort Solr Installs](https://jermdavis.wordpress.com/2017/10/30/low-effort-solr-installs/) post and using his script, I strived to make things even simpler. Yes, opening the script and configuring all the parameters was too much work for me.
 ``` powershell
 Param(
@@ -29,13 +29,13 @@ Param(
 )
 ```
 
-## Download and Run!
+### Download and Run!
 My script is available on GitHub: [https://github.com/kimmminjae/one-click-solr-installer](https://github.com/kimmminjae/one-click-solr-installer)
 
 Download both files then run ```one-click-solr-installer.bat```. You will need Admin privileges.
-# Modifications
+## Modifications
 
-## JRE Version and Validation
+### JRE Version and Validation
 Configuring the JREVersion was the biggest pain point since JRE version isn't something I keep in the top of my head.
 ``` powershell
 try {
@@ -64,7 +64,7 @@ I realized that I can get the Java version by calling the ``` java -verbose``` c
 ```
 With some string trimming, I was able to extract the path. I also added some validations on the way to make sure the user had JRE 64-bit installed. This validation might prevent some headaches later when installing Sitecore.
 
-## Listing All the Available Solr Versions and Taking the Input
+### Listing All the Available Solr Versions and Taking the Input
 Before this project, I had multiple scripts with predefined versions embedded in the scripts. I then used the appropriate script for the version I wanted. I didn't like that. First, I made some changes to let the user input the version they wanted. Then I improved it by crawling the solr archive site to retrieve all the available versions of Solr. Even the latest ones.
 ``` powershell
 # Retrieve the list of Solr versions
@@ -102,7 +102,7 @@ while (!$isValidInput) {
 }
 ```
 ![](/assets/images/blog/2019-10-03-one-click-solr-installer/solr-installer-version-selection.png)
-## Configuration
+### Configuration
 Okay, I lied. It's not a ONE CLICK Installer. You need to type more than once to get Solr installed. I didn't plan to add the configuration setting when I was planning for this project, and that's why I called it One-Click.
 ``` powershell
 $solrVersion = $versionInput
