@@ -17,7 +17,7 @@ header:
 ---
 
 ## Read it on Valtech Blog!
-For the past 3 months, I've been implementing Sitecore's Digital Asset Management (DAM) solution, Content Hub.
+For the past 4 months, I've been implementing Sitecore's Digital Asset Management (DAM) solution, Content Hub.
 I learned a lot about implementing a functional DAM system while developing and configuring Sitecore Content Hub.
 I shared my learnings on Valtech's blog page!
 Please feel free to read it using the link below!
