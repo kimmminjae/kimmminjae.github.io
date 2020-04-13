@@ -36,5 +36,5 @@ I had live streaming going for this demo and accepted some questions from the au
 Although it has poor audio quality, you can check out the video here:
 
 {% raw %} 
-<iframe src="https://www.youtube.com/embed/u9iNWHOJPk8" height="700" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u9iNWHOJPk8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {% endraw %}
