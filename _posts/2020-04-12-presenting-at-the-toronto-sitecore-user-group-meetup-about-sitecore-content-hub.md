@@ -1,5 +1,5 @@
 ---
-title: Presenting at Toronto Sitecore User Group Meetup About Content Hub
+title: Presenting at the Toronto Sitecore User Group Meetup About Sitecore Content Hub
 categories:
 - blog
 excerpt: Bringing the Sitecore community together and demoing some key features and use cases of Sitecore Content Hub
