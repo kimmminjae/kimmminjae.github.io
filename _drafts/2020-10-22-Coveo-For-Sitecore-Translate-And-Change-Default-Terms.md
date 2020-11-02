@@ -115,3 +115,13 @@ Once the rednering model was created, I created a Sitecore rendering.
     </script>
 }
 ```
+
+Then I add the rendering and model to Sitecore and associate them with each other.
+
+PIC OF RENDERING AND MODEL
+
+Finally, I add the newly created rendering to the bottom of my MainLayout.cshtml file.
+
+``` c#
+@Html.Sitecore().Rendering("/sitecore/layout/Renderings/Feature/Coveo Dictionary/Dictionary Resource", new { DataSource = "/sitecore/content/Home/Settings/Coveo Search Dictionary Config" })
+```
