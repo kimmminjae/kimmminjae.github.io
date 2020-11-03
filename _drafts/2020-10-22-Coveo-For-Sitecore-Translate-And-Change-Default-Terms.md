@@ -20,8 +20,13 @@ header:
 
 Coveo for Sitecore Hive Framework is a great framework which is "the entire Coveo JavaScript Search Framework as Sitecore MVC presentation items". Simply, Coveo for Sitecore comes with pre-built Sitecore components and appropriate datasource item templates which you can start using right away without any coding to build your search page. The problem with many of these pre-built Sitecore components and datasource item templates is that not everything is customizable.
 
-Let's override the terms which are highlighted below.
+## Example
+
+As an example exercise, let's override the terms which are highlighted below.
 ![](/assets/images/blog/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms-01.png)
+
+By the end of this exercise, you should have these terms replaced with something different like this:
+![](/assets/images/blog/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms-02.png)
 
 ## The Solution
 
@@ -38,6 +43,11 @@ String.toLocaleString({
 ```
 It also notes that
 > If you write code to add or override default string values, you should always make sure this code executes after the CoveoJsSearch.js and localization file references in your HTML page.
+
+All the keys and default terms are available [here](https://github.com/coveo/search-ui/blob/afe7a570735c6f1d11438fd22b315b512b730271/strings/strings.json).
+
+The following shows an example of all the default key-value pairs that comes with the installation of Coveo for Sitecore (stored under Website\Coveo\Hive\js\cultures\en.js)
+![](/assets/images/blog/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms-03.png)
 
 We can utilize this script snippet and ASP.NET Razor syntax's ability to dynamically build JavaScript with the data coming from the CMS.
 
@@ -119,10 +129,20 @@ Once the rednering model was created, I created a Sitecore rendering.
 
 Then I add the rendering and model to Sitecore and associate them with each other.
 
-PIC OF RENDERING AND MODEL
+![](/assets/images/blog/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms-04.png)
+![](/assets/images/blog/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms-05.png)
 
 Finally, I add the newly created rendering to the bottom of my MainLayout.cshtml file.
 
 ``` c#
 @Html.Sitecore().Rendering("/sitecore/layout/Renderings/Feature/Coveo Dictionary/Dictionary Resource", new { DataSource = "/sitecore/content/Home/Settings/Coveo Search Dictionary Config" })
 ```
+I then created a dictionary folder and populated it with key-value pairs.
+Note that dictionary strings can contain singular and/or plural tags <sn></sn> <pl></pl>
+![](/assets/images/blog/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms-08.png)
+
+Once the folders are properly selected, go to the datasource of the rendering and set the dictionary folder to the one corrisponding to Coveo. Again, your implementation on getting these dictionary items could be different.
+![](/assets/images/blog/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms-09.png)
+
+Finally, the terms are edited. Note the script section at the bottom of the DOM.
+![](/assets/images/blog/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms-10.png)
