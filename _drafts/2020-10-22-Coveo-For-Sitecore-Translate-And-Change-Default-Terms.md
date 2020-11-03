@@ -20,7 +20,8 @@ header:
 
 Coveo for Sitecore Hive Framework is a great framework which is "the entire Coveo JavaScript Search Framework as Sitecore MVC presentation items". Simply, Coveo for Sitecore comes with pre-built Sitecore components and appropriate datasource item templates which you can start using right away without any coding to build your search page. The problem with many of these pre-built Sitecore components and datasource item templates is that not everything is customizable.
 
-PIC WITH ORIGINAL TEXT
+Let's override the terms which are highlighted below.
+![](/assets/images/blog/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms-01.png)
 
 ## The Solution
 
