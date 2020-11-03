@@ -12,6 +12,7 @@ tags:
 - Translation
 date: 2020-11-02T04:00:00.000+00:00
 header:
+  overlay_image: /assets/images/blog/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms-Hero.png
   overlay_filter: "0.5"
   show_overlay_title: true
 ---
