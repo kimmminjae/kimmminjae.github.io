@@ -30,6 +30,7 @@ By the end of this exercise, you should have these terms replaced with something
 
 ## The Solution
 
+### JavaScript Override
 First, we need to find out if Coveo has a recommended way of changing or overriding the default strings. From their Coveo JavaScript Search Framework documentation, we can find the ["Change the Language of Your Search Interface, Adding or Overriding Strings"](https://docs.coveo.com/en/421/javascript-search-framework/change-the-language-of-your-search-interface#adding-or-overriding-strings) section.
 It shows a JavaScript code example showing how to override an existing string.
 
@@ -44,18 +45,22 @@ String.toLocaleString({
 It also notes that
 > If you write code to add or override default string values, you should always make sure this code executes after the CoveoJsSearch.js and localization file references in your HTML page.
 
+### Key-Value Pair
+
 All the keys and default terms are available [here](https://github.com/coveo/search-ui/blob/afe7a570735c6f1d11438fd22b315b512b730271/strings/strings.json).
 
 The following shows an example of all the default key-value pairs that come with the installation of Coveo for Sitecore (stored under Website\Coveo\Hive\js\cultures\en.js)
 ![](/assets/images/blog/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms-03.png)
 
+### Connecting JavaScript Override Script with the Sitecore CMS
+
 We can utilize this script snippet and ASP.NET Razor syntax's ability to dynamically build JavaScript with the data coming from the CMS.
 
-First, I name a Dictionary Resource Rendering Model to keep track of the folder which holds all the dictionary items, the dictionary items themselves stored as Dictionary<string, string> key-value pairs, and the current language because the script snippet requires a two-character language code.
+First, I created the Dictionary Resource Rendering Model to keep track of the folder which holds all the dictionary items, the dictionary items themselves stored as Dictionary<string, string> key-value pairs, and the current language because the script snippet requires a two-character language code.
 
 I made a separate datasource template and item to keep the dictionary folder path, where that folder holds all the key-value pairs. I wanted the folder path to be editable but you might come up with different implementation ideas. The important part here is somehow storing the key-value pairs of only the Coveo related dictionary items. If you store all the dictionary items, including the non-Coveo related items, the script will be massive and filled with non-existing key-value pairs.
 
-In my implementation, I used a custom dictionary item template (instead of the out of the box Sitecore one) and stored them under a custom settings folder under the Home item. This allows content editors with no access to the System item to edit these values. Instead of having two fields for key and value, I made value the only field and used the name of the item for the key. You can choose to implement it differently.
+In my implementation, I used a custom dictionary item template (instead of the out of the box Sitecore one) and stored them under a custom settings folder under the Home item. This allows content editors with no access to the System item to edit these values. Instead of having two fields for key and value, I only created the value field and used the name of the item for the key. You can choose to implement it differently.
 
 ``` c#
 using System;
@@ -106,7 +111,7 @@ namespace Sitecore.Feature.CoveoSearch.Models.Dictionary
 }
 ```
 
-Once the rednering model was created, I created a Sitecore rendering.
+Once the rednering model was created, I created the Sitecore rendering which dynamically renders the script with key-value override.
 
 ``` cshtml
 @model Sitecore.Feature.CoveoSearch.Models.Dictionary.DictionaryResourceRenderingModel
@@ -127,22 +132,24 @@ Once the rednering model was created, I created a Sitecore rendering.
 }
 ```
 
-Then I add the rendering and model to Sitecore and associate them with each other.
+Then I added the rendering and model to Sitecore and associated them.
 
 ![](/assets/images/blog/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms-04.png)
 ![](/assets/images/blog/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms-05.png)
 
-Finally, I add the newly created rendering to the bottom of my MainLayout.cshtml file.
+Finally, I added the newly created rendering to the bottom of my MainLayout.cshtml file.
 
 ``` c#
 @Html.Sitecore().Rendering("/sitecore/layout/Renderings/Feature/Coveo Dictionary/Dictionary Resource", new { DataSource = "/sitecore/content/Home/Settings/Coveo Search Dictionary Config" })
 ```
-I then created a dictionary folder and populated it with key-value pairs.
-Note that dictionary strings can contain singular and/or plural tags <sn></sn> <pl></pl>
+I then created a dictionary folder and populated it with custom key-value pairs.
+Note that these dictionary strings may contain singular and/or plural tags <sn></sn> <pl></pl>
 ![](/assets/images/blog/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms-08.png)
 
 Once the folders are properly selected, go to the datasource of the rendering and set the dictionary folder to the one corresponding to Coveo. Again, your implementation on getting these dictionary items could be different.
 ![](/assets/images/blog/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms-09.png)
+
+## Result
 
 Finally, the terms are edited. Note the script section at the bottom of the DOM.
 ![](/assets/images/blog/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms-10.png)
