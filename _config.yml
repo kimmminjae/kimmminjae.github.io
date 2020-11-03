@@ -308,3 +308,6 @@ defaults:
     vlaues:
       layout: single
       author_profile: true
+      
+#Classes
+classes: wide
