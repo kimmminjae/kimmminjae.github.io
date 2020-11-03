@@ -2,8 +2,6 @@
 main:
   - title: "CV"
     url: /files/Resume_Min-Jae-Kim.pdf
-  - title: "Blog"
-    url: /blog/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
