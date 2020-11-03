@@ -131,14 +131,14 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/kimminjaeee"
     - label: "Resume"
-      icon: "far fa-file-alt"
+      icon: "far fa-fw fa-file-alt"
       url: "/files/Resume_Min-Jae-Kim.pdf"
   certifications:
     - label: "Sitecore"
-      icon: "fab fa-stripe-s"
+      icon: "fab fa-fw fa-stripe-s"
       url: "/files/Sitecore_Min-Jae-Kim.pdf"
     - label: "Coveo"
-      icon: "fas fa-copyright"
+      icon: "fas fa-fw fa-copyright"
       url: "/files/Coveo_Min-Jae-Kim.pdf"
 
 # Site Footer
