@@ -13,7 +13,7 @@ tags:
 date: 2020-11-02T04:00:00.000+00:00
 header:
   overlay_image: /assets/images/blog/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms-Hero.png
-  overlay_filter: "0.5"
+  overlay_filter: "0.7"
   show_overlay_title: true
 ---
 
@@ -35,7 +35,7 @@ By the end of this exercise, you should have these terms replaced with something
 First, we need to find out if Coveo has a recommended way of changing or overriding the default strings. From their Coveo JavaScript Search Framework documentation, we can find the ["Change the Language of Your Search Interface, Adding or Overriding Strings"](https://docs.coveo.com/en/421/javascript-search-framework/change-the-language-of-your-search-interface#adding-or-overriding-strings) section.
 It shows a JavaScript code example showing how to override an existing string.
 
-``` JavaScript
+```js
 String.toLocaleString({ 
   "en": {
     "Forward": "Full Speed Ahead!", // Overrides an existing string.
@@ -63,7 +63,7 @@ I made a separate datasource template and item to keep the dictionary folder pat
 
 In my implementation, I used a custom dictionary item template (instead of the out of the box Sitecore one) and stored them under a custom settings folder under the Home item. This allows content editors with no access to the System item to edit these values. Instead of having two fields for key and value, I only created the value field and used the name of the item for the key. You can choose to implement it differently.
 
-``` c#
+```c#
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -114,7 +114,7 @@ namespace Sitecore.Feature.CoveoSearch.Models.Dictionary
 
 Once the rednering model was created, I created the Sitecore rendering which dynamically renders the script with key-value override.
 
-``` cshtml
+```c#
 @model Sitecore.Feature.CoveoSearch.Models.Dictionary.DictionaryResourceRenderingModel
 @if (Model.DictionaryItems.Count > 0)
 {
@@ -140,7 +140,7 @@ Then I added the rendering and model to Sitecore and associated them.
 
 Finally, I added the newly created rendering to the bottom of my MainLayout.cshtml file.
 
-``` c#
+```c#
 @Html.Sitecore().Rendering("/sitecore/layout/Renderings/Feature/Coveo Dictionary/Dictionary Resource", new { DataSource = "/sitecore/content/Home/Settings/Coveo Search Dictionary Config" })
 ```
 I then created a dictionary folder and populated it with custom key-value pairs.
