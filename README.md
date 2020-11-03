@@ -1,4 +1,4 @@
-# www.kimmj.com
+# minjae.io
 
 ## Project Build Procedure
 
