@@ -26,6 +26,9 @@ Now, let's see this behaviour and see how we can resolve it.
 
 ## Example
 
-![](/assets/images/blog/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms/2020-10-05-Coveo-For-Sitecore-Clear-All-Facets-On-New-Query-01.png)
+### Before
+![](/assets/images/blog/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms/2020-10-05-Coveo-For-Sitecore-Clear-All-Facets-On-New-Query-01.gif)
 
+### After
+![](/assets/images/blog/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms/2020-10-05-Coveo-For-Sitecore-Clear-All-Facets-On-New-Query-02.gif)
 ## The Solution
