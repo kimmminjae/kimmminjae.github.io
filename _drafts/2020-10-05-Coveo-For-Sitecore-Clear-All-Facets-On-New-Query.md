@@ -44,6 +44,9 @@ Instead we want to check for all these inbetween queries.
 That's were ["Coveo Javascript Framework Query Events"](https://docs.coveo.com/en/417/javascript-search-framework/javascript-search-framework-events#query-events) comes in.
 We can tap into one of many events and insert our own logic during queries.
 
+There are two versions. Using pure JavaScript, and using jQuery.
+I have a code snippet for each methods.
+
 ### Vanilla JavaScript Version
 ``` js
 var previousSearchTerm = "";
