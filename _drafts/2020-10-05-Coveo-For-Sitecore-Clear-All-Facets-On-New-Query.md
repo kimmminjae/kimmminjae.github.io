@@ -105,3 +105,5 @@ Make sure to replace the Coveo Search Interface ID with your Search Interface ID
 var root = document.querySelector("#YourCoveoSearchInterfaceID");
 ```
 ![](/assets/images/blog/2020-10-05-Coveo-For-Sitecore-Clear-All-Facets-On-New-Query/2020-10-05-Coveo-For-Sitecore-Clear-All-Facets-On-New-Query-03.png)
+
+Now, just make sure this script runs.
