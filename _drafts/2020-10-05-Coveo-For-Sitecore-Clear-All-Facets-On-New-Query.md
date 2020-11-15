@@ -45,13 +45,13 @@ That's were ["Coveo Javascript Framework Query Events"](https://docs.coveo.com/e
 We can tap into one of many events and insert our own logic during queries.
 
 There are two versions. Using pure JavaScript, and using jQuery.
-I have a code snippet for each methods.
+I have code snippets for each methods.
 
 ### Vanilla JavaScript Version
 ``` js
 var previousSearchTerm = "";
 document.addEventListener("DOMContentLoaded", function () {
-    var root = document.querySelector("#coveofd03k2s4");
+    var root = document.querySelector("#coveoC606340E");
     if (root != undefined) {
         Coveo.$$(root).on('buildingQuery', function (e, args) {
             var currentSearchTerm = Coveo.state(root, 'q')
@@ -80,12 +80,11 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 ```
 
-
 ### jQuery Version
 ``` js
 var previousSearchTerm = "";
 document.addEventListener("DOMContentLoaded", function () {
-    var root: HTMLElement = document.querySelector("#coveob49a21d5");
+    var root = document.querySelector("#coveoC606340E");
     if (root != undefined) {
         Coveo.$$(root).on('buildingQuery', function (e, args) {
         var currentSearchTerm = Coveo.state(root, 'q')
@@ -99,3 +98,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 ```
+
+### Note
+Make sure to replace the Coveo Search Interface ID with your Search Interface ID
+``` js
+var root = document.querySelector("#YourCoveoSearchInterfaceID");
+```
+![](/assets/images/blog/2020-10-05-Coveo-For-Sitecore-Clear-All-Facets-On-New-Query/2020-10-05-Coveo-For-Sitecore-Clear-All-Facets-On-New-Query-03.png)
