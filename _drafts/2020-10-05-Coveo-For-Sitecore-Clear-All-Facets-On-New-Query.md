@@ -10,7 +10,7 @@ tags:
 - Search
 - Versioning
 - Translation
-date: 2020-11-02T04:00:00.000+00:00
+date: 2020-10-05T04:00:00.000+00:00
 header:
   overlay_image: /assets/images/blog/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms/2020-10-22-Coveo-For-Sitecore-Translate-And-Change-Default-Terms-Hero.png
   overlay_filter: "0.7"
@@ -43,3 +43,56 @@ We don't want to check after we execute the query since that will cost 1 addtion
 Instead we want to check for all these inbetween queries.
 That's were ["Coveo Javascript Framework Query Events"](https://docs.coveo.com/en/417/javascript-search-framework/javascript-search-framework-events#query-events) comes in.
 We can tap into one of many events and insert our own logic during queries.
+
+### Vanilla JavaScript Version
+``` js
+var previousSearchTerm = "";
+document.addEventListener("DOMContentLoaded", function () {
+    var root = document.querySelector("#coveofd03k2s4");
+    if (root != undefined) {
+        Coveo.$$(root).on('buildingQuery', function (e, args) {
+            var currentSearchTerm = Coveo.state(root, 'q')
+
+            if (previousSearchTerm != currentSearchTerm && previousSearchTerm != "") {
+                var coveoFacets = Coveo.$$(document).findAll('.CoveoFacet');
+                if (coveoFacets) {
+                    coveoFacets.forEach(coveoFacet => Coveo.get(coveoFacet).reset());
+                }
+                var coveoFacetRanges = Coveo.$$(document).findAll('.CoveoFacetRange');
+                if (coveoFacetRanges) {
+                    coveoFacetRanges.forEach(coveoFacetRange => Coveo.get(coveoFacetRange).reset());
+                }
+                var coveoCategoryFacets = Coveo.$$(document).findAll('.CoveoCategoryFacet');
+                if (coveoCategoryFacets) {
+                    coveoCategoryFacets.forEach(coveoCategoryFacet => Coveo.get(coveoCategoryFacet).resetPath());
+                    coveoCategoryFacets.forEach(coveoCategoryFacet => Coveo.get(coveoCategoryFacet).logAnalyticsEvent({
+                        name: 'categoryFacetClear',
+                        type: 'categoryFacet'
+                    }));
+                }
+            }
+            previousSearchTerm = currentSearchTerm;
+        });
+    }
+});
+```
+
+
+### jQuery Version
+``` js
+var previousSearchTerm = "";
+document.addEventListener("DOMContentLoaded", function () {
+    var root: HTMLElement = document.querySelector("#coveob49a21d5");
+    if (root != undefined) {
+        Coveo.$$(root).on('buildingQuery', function (e, args) {
+        var currentSearchTerm = Coveo.state(root, 'q')
+            if (previousSearchTerm != currentSearchTerm && previousSearchTerm != "") {
+                Coveo.$('.CoveoFacet').coveo('reset');
+                Coveo.$('.CoveoFacetRange').coveo('reset');
+                Coveo.$('.CoveoCategoryFacet').coveo('resetPath');
+            }
+            previousSearchTerm = currentSearchTerm;
+        });
+    }
+});
+```
