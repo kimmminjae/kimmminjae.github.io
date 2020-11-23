@@ -20,7 +20,7 @@ header:
 
 ## What I Presented
 
-With the invitation of 
+After my application and later with the invitation from the organizers of SUGCON, I had an honour to speak in front of more than 250 Sitecore loving individuals. This was a perfect followup to my local Toronto Sitecore User Group presentation which I gave a month prior. This time I was joined by Blair Roebuck, a Sitecore MVP, who spoke in detail about Content Hub's role in marketing terms, focusing its potential synergy with Sitecore Personalization. I focused on presenting about the roles of Digital Asset Management systems and ran a demo of its features like DRM, advanced search capabilities, automatic Artificial Intelligence (AI) asset tagging and description, user access level control using taxonomy, and more. Later, I also showed the Sitecore connector which connects Sitecore Content Hub to Sitecore XP.
 
 ## Video Recording
 
