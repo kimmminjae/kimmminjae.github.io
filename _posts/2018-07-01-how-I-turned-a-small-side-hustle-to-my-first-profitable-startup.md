@@ -36,15 +36,16 @@ We also had to solve some new problems like ensuring the reliability of the inte
 While managing and leading the team who were building $6 Million worth of mining rigs, we were also continuously consulting our client on the technical and financial aspect of the project.
 
 ![](/assets/images/blog/2018-07-01-how-I-turned-a-small-side-hustle-to-my-first-profitable-startup/founders-min.jpg)
-The two co-founders
+The two co-founders of Coin Miner
 
 ![](/assets/images/blog/2018-07-01-how-I-turned-a-small-side-hustle-to-my-first-profitable-startup/team-min.png)
-The first team
+Our first team
 
 ![](/assets/images/blog/2018-07-01-how-I-turned-a-small-side-hustle-to-my-first-profitable-startup/w-rig-4-min.jpg)
-Rigs
+Mining Rigs
 
 ## Conclusion and the End of Coin Miner
 
 At first, we would have never imagined our tiny project to become this big in one year. We entered this market knowing the risks involved in the volatility of cryptocurrencies and we minimized our risks by only fulfilling the demand created by the market instead of investing directly into the market.
-After taking profits, we closed down coinminer due to lack of demand after the cryptocurrency market crash of 2018.
+After taking profits, we closed down Coin Miner due to lack of demand after the cryptocurrency market crash of 2018.
+Through our successes and failures, I learned many things that make a business successful, and all the work that goes into running a business. Along the way, we wore multiple hats of an engineer, accountant, HR, project manager, customer support, and many in between. This taught me more than any school or a course could. Although the business didn't last long, this was one of the most memorable and enjoyable experiences of my life.
