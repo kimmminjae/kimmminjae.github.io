@@ -156,6 +156,13 @@
     animation: $intro-transition;
     -webkit-animation-delay: 0.25s;
     animation-delay: 0.25s;
+     
+      .masked-h1 {
+         position: absolute;
+         width: 1px;
+         height: 1px;
+         overflow: hidden;
+      }
 
     a {
       color: #fff;
