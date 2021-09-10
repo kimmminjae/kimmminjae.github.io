@@ -199,6 +199,13 @@
   }
 }
 
+.masked-h1 {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+}
+
 .page__hero-image {
   width: 100%;
   height: auto;
