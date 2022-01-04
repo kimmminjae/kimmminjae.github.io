@@ -107,7 +107,7 @@ def get_word_count_object(submissions_list, ignored_commonwords, min_score):
     return word_count_object
 ```
 
-Finally, use the function shown above by getting the top 200 posts of the last 7 days, top 100 posts of the last 24 hours, and top 10 posts of the last 1 hour. Then upload the data to the database.
+Finally, use the function shown above by getting the top 200 posts of the last 7 days, top 100 posts of the last 24 hours, and top 10 posts of the last 1 hour. Then upload the data to the database. This crawler was hosted on Heroku and ran every hour.
 ``` python
 while True:
     print('Start scraping...', flush=True)
