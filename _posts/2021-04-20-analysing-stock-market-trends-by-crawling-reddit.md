@@ -14,7 +14,7 @@ tags:
 date: 2021-04-20T04:00:00.000+00:00
 header:
   overlay_image: /assets/images/blog/2021-04-20-analysing-stock-market-trends-by-crawling-reddit/2021-04-20-analysing-stock-market-trends-by-crawling-reddit-hero.jpg
-  overlay_filter: "0.7"
+  overlay_filter: "0.8"
   show_overlay_title: true
 ---
 
