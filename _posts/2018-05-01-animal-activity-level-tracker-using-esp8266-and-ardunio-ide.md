@@ -18,7 +18,7 @@ tags:
 date: 2018-05-01T04:00:00.000+00:00
 header:
   overlay_image: "/assets/images/animal-activity-level-tracker-system-diagram.png"
-  overlay_filter: "0.5"
+  overlay_filter: "0.7"
   show_overlay_title: true
 
 ---
