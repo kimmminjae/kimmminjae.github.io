@@ -10,9 +10,9 @@ tags:
 - OpenCV
 - Computer Vision
 - White Balance
-date: 2016-08-27T08:00:00.000+00:00
+date: 2017-08-27T08:00:00.000+00:00
 header:
-  overlay_image: "/assets/images/blog/2016-08-27-android-camera2-api-pipeline-app/hero.jpg"
+  overlay_image: "/assets/images/blog/2017-08-27-android-camera2-api-pipeline-app/hero.jpg"
   overlay_filter: "0.5"
   show_overlay_title: true
 
@@ -36,7 +36,7 @@ calculating the optimal RGGB Channel Vector. Proprietary pipelines built by
 different phone manufacturers often produced different images under identical
 scenes, but by calibrating the pipeline, I was able to produce identical images.
 
-![](/assets/images/blog/2016-08-27-android-camera2-api-pipeline-app/media/7e8d87d13c6ea7c1300e0c6a9c360cb6.png)
+![](/assets/images/blog/2017-08-27-android-camera2-api-pipeline-app/media/7e8d87d13c6ea7c1300e0c6a9c360cb6.png)
 
 Figure 1 Karaimer H.C., Brown M.S. (2016) “A Software Platform for Manipulating
 the Camera Imaging Pipeline”, European Conference on Computer Vision (ECCV\`16),
@@ -69,7 +69,7 @@ matrix to be measured and averaged out.
 
 I used OpenCV to accomplish this.
 
-![](/assets/images/blog/2016-08-27-android-camera2-api-pipeline-app/media/dcdf0db1069713d9022b811534a3d21d.png)
+![](/assets/images/blog/2017-08-27-android-camera2-api-pipeline-app/media/dcdf0db1069713d9022b811534a3d21d.png)
 
 Figure 2 Use this image to show demosaicing [http://www.ok.sc.e.titech.ac.jp/\~ymonno/researches.html](http://www.ok.sc.e.titech.ac.jp/\~ymonno/researches.html)
 
@@ -80,7 +80,7 @@ required to make the selected region white. This value is applied to the entire
 RAW image to white balance. This process forces the selected region to have
 identical Red, Green, and Blue pixels values.
 
-![](/assets/images/blog/2016-08-27-android-camera2-api-pipeline-app/media/7c5c7e3f3d7b851ddde7ec1d0bc2b756.png)
+![](/assets/images/blog/2017-08-27-android-camera2-api-pipeline-app/media/7c5c7e3f3d7b851ddde7ec1d0bc2b756.png)
 
 Figure 3 Raw Image with gamma correction (Left/Stage 1), Black Light
 Substraction (Middle/Stage 2), White Balance (Right/Stage 6)
