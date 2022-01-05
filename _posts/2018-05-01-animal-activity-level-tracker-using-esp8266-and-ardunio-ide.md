@@ -30,7 +30,7 @@ The device is intended to be distributed to thousands of animal owners in the fu
 
 The device is intended to be distributed to thousands of animal owners in the future. We intend to collect data from all these devices and enable researchers to use this "Big Data". Thus, we call this device the Bio Animal Big Data (BioABD).
 
-The BioABD device measures acceleration in X, Y, and Z axis using the ADXL-345 accelerometer. It also measures temperature using the DS18B20 Temperature Sensor. ESP8266 microcontroller takes the readings from these sensors and sends it to Firebase (cloud database). These data are then viewable from an Android smartphone using our app. Extensive testing was done and these testing results are well documented on [our documentation](https://app.forestry.io/sites/lyjkvpnlscvfoq/body-media//files/ENG4000-Final-Report-BioABD.pdf).
+The BioABD device measures acceleration in X, Y, and Z axis using the ADXL-345 accelerometer. It also measures temperature using the DS18B20 Temperature Sensor. ESP8266 microcontroller takes the readings from these sensors and sends it to Firebase (cloud database). These data are then viewable from an Android smartphone using our app. Extensive testing was done and these testing results are well documented on [our documentation](/files/ENG4000-Final-Report-BioABD.pdf).
 
 ![](/assets/images/animal-activity-tracker-system-diagram-state.png)
 
