@@ -3,7 +3,7 @@ title: Android Camera2 API Pipeline Manipulation
 modified: 
 categories:
 - blog
-excerpt: Let's Take Some Picture!
+excerpt: Let's Take Some Pictures!
 tags:
 - Android
 - Camera
