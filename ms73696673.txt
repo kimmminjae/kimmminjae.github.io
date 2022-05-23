@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "minjae.io",
+  "Id": "889167de-443a-450d-9b9f-2775b364cbb1"
+}
