@@ -130,9 +130,6 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/kimminjaeee"
-    - label: "Resume"
-      icon: "far fa-fw fa-file-alt"
-      url: "/files/Resume_Minjae-Kim.pdf"
   certifications:
     - label: "Sitecore"
       icon: "fab fa-fw fa-stripe-s"
