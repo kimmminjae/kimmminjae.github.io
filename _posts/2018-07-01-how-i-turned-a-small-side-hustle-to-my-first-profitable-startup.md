@@ -2,7 +2,7 @@
 title: How I Turned a Small Side Hustle to My First Profitable Startup
 categories:
 - blog
-excerpt: From building a $3,000 mining rig to building $6 Million worth of mining rigs
+excerpt: From building a $3,000 mining rig at home to building $6 Million mining warehouse
 tags:
 - cryptocurrency
 - bitcoin
